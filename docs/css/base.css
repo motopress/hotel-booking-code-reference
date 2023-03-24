@@ -736,7 +736,7 @@ td.phpdocumentor-cell:last-child {
     font-weight: 600;
     background: var(--primary-color);
     color: white;
-    margin: 0 0 var(--spacing-lg);
+    margin: var(--spacing-lg) 0;
     display: block;
     padding: var(--spacing-sm);
     text-align: center;
