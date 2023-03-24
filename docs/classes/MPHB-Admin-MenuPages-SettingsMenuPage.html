@@ -1,0 +1,2164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MotoPress Hotel Booking Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css">
+            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header">
+    <div class="phpdocumentor-section">
+        <nav class="phpdocumentor-topnav">
+    <div class="site-branding">
+        <a class="site-logo" href="../index.html">MotoPress Hotel Booking Code Reference</a>
+    </div>
+    <ul class="phpdocumentor-topnav__menu">
+        <li><a href="../hooks/hooks.html">Hooks Reference</a></li>
+        <li><a href="https://motopress.com/documentation/wordpress/plugins/hotel-booking/">Documentation</a></li>
+        <li><a href="https://motopress.github.io/hotel-booking-rest-api/">REST API</a></li>
+    </ul>
+</nav>
+    </div>
+</header>
+
+<section data-search-form class="phpdocumentor-search">
+    <div class="phpdocumentor-section">
+        <label>
+            <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+        </label>
+    </div>
+</section>
+
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+    <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+    <label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+        Menu
+    </label>
+
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/mphb.html"><abbr title="\MPHB">MPHB</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/mphb-admin.html"><abbr title="\MPHB\Admin">Admin</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-advanced.html"><abbr title="\MPHB\Advanced">Advanced</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-ajaxapi.html"><abbr title="\MPHB\AjaxApi">AjaxApi</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-bookingrules.html"><abbr title="\MPHB\BookingRules">BookingRules</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-bundles.html"><abbr title="\MPHB\Bundles">Bundles</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-core.html"><abbr title="\MPHB\Core">Core</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-crons.html"><abbr title="\MPHB\Crons">Crons</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-csv.html"><abbr title="\MPHB\CSV">CSV</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-emails.html"><abbr title="\MPHB\Emails">Emails</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-entities.html"><abbr title="\MPHB\Entities">Entities</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-exceptions.html"><abbr title="\MPHB\Exceptions">Exceptions</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-payments.html"><abbr title="\MPHB\Payments">Payments</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-persistences.html"><abbr title="\MPHB\Persistences">Persistences</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-posttypes.html"><abbr title="\MPHB\PostTypes">PostTypes</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-reports.html"><abbr title="\MPHB\Reports">Reports</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-repositories.html"><abbr title="\MPHB\Repositories">Repositories</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-scriptmanagers.html"><abbr title="\MPHB\ScriptManagers">ScriptManagers</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-settings.html"><abbr title="\MPHB\Settings">Settings</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-shortcodes.html"><abbr title="\MPHB\Shortcodes">Shortcodes</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-taxesandfees.html"><abbr title="\MPHB\TaxesAndFees">TaxesAndFees</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-upgrades.html"><abbr title="\MPHB\Upgrades">Upgrades</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-useractions.html"><abbr title="\MPHB\UserActions">UserActions</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-usersandroles.html"><abbr title="\MPHB\UsersAndRoles">UsersAndRoles</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-utils.html"><abbr title="\MPHB\Utils">Utils</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-views.html"><abbr title="\MPHB\Views">Views</abbr></a></li>
+                                            <li><a href="../namespaces/mphb-widgets.html"><abbr title="\MPHB\Widgets">Widgets</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/Default.html"><abbr title="\Default">Default</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="../packages/MPHB.html"><abbr title="\MPHB">MPHB</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="../packages/MPHB-Advanced.html"><abbr title="\MPHB\Advanced">Advanced</abbr></a></li>
+                                    <li><a href="../packages/MPHB-Entities.html"><abbr title="\MPHB\Entities">Entities</abbr></a></li>
+                            </ul>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../hooks/hooks.html">Hooks</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="../namespaces/mphb.html">MPHB</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="../namespaces/mphb-admin.html">Admin</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="../namespaces/mphb-admin-menupages.html">MenuPages</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    SettingsMenuPage
+
+        <span class="phpdocumentor-element__extends">
+        extends <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html"><abbr title="\MPHB\Admin\MenuPages\AbstractMenuPage">AbstractMenuPage</abbr></a>
+    </span>
+    
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="../packages/Default.html">Default</a></li>
+                            </ul>
+        </div>
+    
+    
+    </h2>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">11</span>
+</aside>
+
+        
+
+
+
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#constant_TAB_ADMIN_EMAILS">TAB_ADMIN_EMAILS</a>
+    <span>
+        &nbsp;= &#039;admin_emails&#039;                    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#constant_TAB_ADVANCED">TAB_ADVANCED</a>
+    <span>
+        &nbsp;= &#039;advanced&#039;                    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#constant_TAB_CUSTOMER_EMAILS">TAB_CUSTOMER_EMAILS</a>
+    <span>
+        &nbsp;= &#039;customer_emails&#039;                    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#constant_TAB_EMAIL_SETTINGS">TAB_EMAIL_SETTINGS</a>
+    <span>
+        &nbsp;= &#039;global_emails&#039;                    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#constant_TAB_EXTENSIONS">TAB_EXTENSIONS</a>
+    <span>
+        &nbsp;= &#039;extensions&#039;                    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#constant_TAB_GENERAL">TAB_GENERAL</a>
+    <span>
+        &nbsp;= &#039;general&#039;                    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#constant_TAB_LICENSE">TAB_LICENSE</a>
+    <span>
+        &nbsp;= &#039;license&#039;                    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#constant_TAB_PAYMENTS">TAB_PAYMENTS</a>
+    <span>
+        &nbsp;= &#039;payments&#039;                    </span>
+</dt>
+<dd></dd>
+
+                <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#property_capability">$capability</a>
+    <span>
+                &nbsp;: mixed            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#property_menuSlug">$menuSlug</a>
+    <span>
+                &nbsp;: mixed            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#property_menuTitle">$menuTitle</a>
+    <span>
+                &nbsp;: mixed            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#property_name">$name</a>
+    <span>
+                &nbsp;: mixed            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#property_order">$order</a>
+    <span>
+                &nbsp;: mixed            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#property_pageTitle">$pageTitle</a>
+    <span>
+                &nbsp;: mixed            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#property_parentMenu">$parentMenu</a>
+    <span>
+                &nbsp;: mixed            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#property_screenId">$screenId</a>
+    <span>
+                &nbsp;: mixed            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#property_tabs">$tabs</a>
+    <span>
+                &nbsp;: array&lt;string|int, <a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a>&gt;            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="../classes/MPHB-Admin-AdminPage.html#property_titleActions">$titleActions</a>
+    <span>
+                &nbsp;: array&lt;string|int, mixed&gt;            </span>
+</dt>
+<dd>Custom actions that output just after the page heading</dd>
+
+                <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/MPHB-Admin-AdminPage.html#method___construct">__construct()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_addActions">addActions()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/MPHB-Admin-AdminPage.html#method_addTitleAction">addTitleAction()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/MPHB-Admin-AdminPage.html#method_addTitleActionsScript">addTitleActionsScript()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#method_createMenu">createMenu()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_detectSubTab">detectSubTab()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_detectTab">detectTab()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_enqueueAdminScripts">enqueueAdminScripts()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#method_getName">getName()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_getUrl">getUrl()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd>Retrieve Url of Motopress Hotel Booking Settings Page</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_initFields">initFields()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_isCurrentPage">isCurrentPage()</a>
+    <span>
+                        &nbsp;: bool    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_onLoad">onLoad()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_registerSettings">registerSettings()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_render">render()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_renderNotices">renderNotices()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_save">save()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_filterGroupFields">filterGroupFields()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_generateTabs">generateTabs()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_getMenuTitle">getMenuTitle()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_getPageTitle">getPageTitle()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method__generateAdminEmailsTab">_generateAdminEmailsTab()</a>
+    <span>
+                        &nbsp;: <a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a>    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method__generateAdvancedTab">_generateAdvancedTab()</a>
+    <span>
+                        &nbsp;: <a href="../classes/MPHB-Advanced-Admin-Tab-SettingsTabAdvanced.html"><abbr title="\MPHB\Advanced\Admin\Tab\SettingsTabAdvanced">SettingsTabAdvanced</abbr></a>    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method__generateCustomerEmailsTab">_generateCustomerEmailsTab()</a>
+    <span>
+                        &nbsp;: <a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a>    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method__generateExtensionsTab">_generateExtensionsTab()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method__generateGeneralTab">_generateGeneralTab()</a>
+    <span>
+                        &nbsp;: <a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a>    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method__generateGlobalEmailSettingsTab">_generateGlobalEmailSettingsTab()</a>
+    <span>
+                        &nbsp;: <a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a>    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method__generateLicenseTab">_generateLicenseTab()</a>
+    <span>
+                        &nbsp;: <a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a>    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method__generatePaymentsTab">_generatePaymentsTab()</a>
+    <span>
+                        &nbsp;: <a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a>    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_renderTabs">renderTabs()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+        </dl>
+
+
+
+        
+    <section class="phpdocumentor-constants">
+        <h3 class="phpdocumentor-elements__header" id="constants">
+            Constants
+            <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TAB_ADMIN_EMAILS">
+        TAB_ADMIN_EMAILS
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#constant_TAB_ADMIN_EMAILS" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">15</span>
+</aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">TAB_ADMIN_EMAILS</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;admin_emails&#039;</span>
+</code>
+
+
+    
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TAB_ADVANCED">
+        TAB_ADVANCED
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#constant_TAB_ADVANCED" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">20</span>
+</aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">TAB_ADVANCED</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;advanced&#039;</span>
+</code>
+
+
+    
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TAB_CUSTOMER_EMAILS">
+        TAB_CUSTOMER_EMAILS
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#constant_TAB_CUSTOMER_EMAILS" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">16</span>
+</aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">TAB_CUSTOMER_EMAILS</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;customer_emails&#039;</span>
+</code>
+
+
+    
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TAB_EMAIL_SETTINGS">
+        TAB_EMAIL_SETTINGS
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#constant_TAB_EMAIL_SETTINGS" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">17</span>
+</aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">TAB_EMAIL_SETTINGS</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;global_emails&#039;</span>
+</code>
+
+
+    
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TAB_EXTENSIONS">
+        TAB_EXTENSIONS
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#constant_TAB_EXTENSIONS" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">19</span>
+</aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">TAB_EXTENSIONS</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;extensions&#039;</span>
+</code>
+
+
+    
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TAB_GENERAL">
+        TAB_GENERAL
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#constant_TAB_GENERAL" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">14</span>
+</aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">TAB_GENERAL</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;general&#039;</span>
+</code>
+
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">4.2.4</span>
+                                                                                
+                                                 <section class="phpdocumentor-description"></section>
+
+                                    </dd>
+                        </dl>
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TAB_LICENSE">
+        TAB_LICENSE
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#constant_TAB_LICENSE" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">21</span>
+</aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">TAB_LICENSE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;license&#039;</span>
+</code>
+
+
+    
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TAB_PAYMENTS">
+        TAB_PAYMENTS
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#constant_TAB_PAYMENTS" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">18</span>
+</aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">TAB_PAYMENTS</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;payments&#039;</span>
+</code>
+
+
+    
+    
+
+</article>
+            </section>
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_capability">
+        $capability
+        <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#property_capability" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/abstract-menu-page.php">includes/admin/menu-pages/abstract-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">15</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$capability</span>
+    </code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_menuSlug">
+        $menuSlug
+        <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#property_menuSlug" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/abstract-menu-page.php">includes/admin/menu-pages/abstract-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">16</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$menuSlug</span>
+    </code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_menuTitle">
+        $menuTitle
+        <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#property_menuTitle" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/abstract-menu-page.php">includes/admin/menu-pages/abstract-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">14</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$menuTitle</span>
+    </code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_name">
+        $name
+        <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#property_name" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/abstract-menu-page.php">includes/admin/menu-pages/abstract-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">10</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$name</span>
+    </code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_order">
+        $order
+        <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#property_order" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/abstract-menu-page.php">includes/admin/menu-pages/abstract-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">9</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$order</span>
+    </code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_pageTitle">
+        $pageTitle
+        <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#property_pageTitle" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/abstract-menu-page.php">includes/admin/menu-pages/abstract-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">13</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$pageTitle</span>
+    </code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_parentMenu">
+        $parentMenu
+        <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#property_parentMenu" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/abstract-menu-page.php">includes/admin/menu-pages/abstract-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">12</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$parentMenu</span>
+    </code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_screenId">
+        $screenId
+        <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#property_screenId" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/abstract-menu-page.php">includes/admin/menu-pages/abstract-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">11</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$screenId</span>
+    </code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_tabs">
+        $tabs
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#property_tabs" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">27</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, <a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a>&gt;</span>
+    <span class="phpdocumentor-signature__name">$tabs</span>
+     = <span class="phpdocumentor-signature__default-value">array()</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_titleActions">
+        $titleActions
+        <a href="../classes/MPHB-Admin-AdminPage.html#property_titleActions" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/admin-page.php">includes/admin/admin-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">12</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Custom actions that output just after the page heading</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$titleActions</span>
+     = <span class="phpdocumentor-signature__default-value">array()</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+            </section>
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="../classes/MPHB-Admin-AdminPage.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/admin-page.php">includes/admin/admin-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">14</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_addActions">
+        addActions()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_addActions" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">963</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">addActions</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_addTitleAction">
+        addTitleAction()
+        <a href="../classes/MPHB-Admin-AdminPage.html#method_addTitleAction" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/admin-page.php">includes/admin/admin-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">18</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">addTitleAction</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$label</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$url</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$options</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$label</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$url</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$options</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_addTitleActionsScript">
+        addTitleActionsScript()
+        <a href="../classes/MPHB-Admin-AdminPage.html#method_addTitleActionsScript" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/admin-page.php">includes/admin/admin-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">addTitleActionsScript</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_createMenu">
+        createMenu()
+        <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#method_createMenu" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/abstract-menu-page.php">includes/admin/menu-pages/abstract-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">47</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">createMenu</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_detectSubTab">
+        detectSubTab()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_detectSubTab" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1037</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">detectSubTab</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">3.7.0</span>
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Became public (was private before).</p>
+</section>
+
+                                    </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_detectTab">
+        detectTab()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_detectTab" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1026</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">detectTab</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">3.7.0</span>
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Became public (was private before).</p>
+</section>
+
+                                    </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_enqueueAdminScripts">
+        enqueueAdminScripts()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_enqueueAdminScripts" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">971</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">enqueueAdminScripts</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getName">
+        getName()
+        <a href="../classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#method_getName" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/abstract-menu-page.php">includes/admin/menu-pages/abstract-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">61</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getUrl">
+        getUrl()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_getUrl" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1121</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Retrieve Url of Motopress Hotel Booking Settings Page</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getUrl</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$additionalArgs</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$additionalArgs</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_initFields">
+        initFields()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_initFields" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">29</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">initFields</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_isCurrentPage">
+        isCurrentPage()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_isCurrentPage" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1086</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">isCurrentPage</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$atts</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$atts</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">bool</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_onLoad">
+        onLoad()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_onLoad" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">977</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">onLoad</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_registerSettings">
+        registerSettings()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_registerSettings" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1073</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">registerSettings</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_render">
+        render()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_render" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">981</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">render</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_renderNotices">
+        renderNotices()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_renderNotices" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1010</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">renderNotices</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_save">
+        save()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_save" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1048</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">save</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_filterGroupFields">
+        filterGroupFields()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_filterGroupFields" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">933</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                <span class="phpdocumentor-signature__name">filterGroupFields</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="../classes/MPHB-Admin-Groups-SettingsGroup.html"><abbr title="\MPHB\Admin\Groups\SettingsGroup">SettingsGroup</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fieldsGroup</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$fieldsGroup</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="../classes/MPHB-Admin-Groups-SettingsGroup.html"><abbr title="\MPHB\Admin\Groups\SettingsGroup">SettingsGroup</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">3.0.3</span>
+                                                                                
+                                                 <section class="phpdocumentor-description"></section>
+
+                                    </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">4.2.4</span>
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>filters the SettingsGroup object.</p>
+</section>
+
+                                    </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_generateTabs">
+        generateTabs()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_generateTabs" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                <span class="phpdocumentor-signature__name">generateTabs</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">since</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">4.2.4</span>
+                                                                                
+                                                 <section class="phpdocumentor-description"></section>
+
+                                    </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getMenuTitle">
+        getMenuTitle()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_getMenuTitle" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1105</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                <span class="phpdocumentor-signature__name">getMenuTitle</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getPageTitle">
+        getPageTitle()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_getPageTitle" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1109</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                <span class="phpdocumentor-signature__name">getPageTitle</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method__generateAdminEmailsTab">
+        _generateAdminEmailsTab()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method__generateAdminEmailsTab" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">616</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">_generateAdminEmailsTab</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a></span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method__generateAdvancedTab">
+        _generateAdvancedTab()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method__generateAdvancedTab" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">904</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">_generateAdvancedTab</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="../classes/MPHB-Advanced-Admin-Tab-SettingsTabAdvanced.html"><abbr title="\MPHB\Advanced\Admin\Tab\SettingsTabAdvanced">SettingsTabAdvanced</abbr></a></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><a href="../classes/MPHB-Advanced-Admin-Tab-SettingsTabAdvanced.html"><abbr title="\MPHB\Advanced\Admin\Tab\SettingsTabAdvanced">SettingsTabAdvanced</abbr></a></span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method__generateCustomerEmailsTab">
+        _generateCustomerEmailsTab()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method__generateCustomerEmailsTab" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">629</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">_generateCustomerEmailsTab</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a></span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method__generateExtensionsTab">
+        _generateExtensionsTab()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method__generateExtensionsTab" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">881</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">_generateExtensionsTab</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method__generateGeneralTab">
+        _generateGeneralTab()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method__generateGeneralTab" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">96</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">_generateGeneralTab</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a></span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method__generateGlobalEmailSettingsTab">
+        _generateGlobalEmailSettingsTab()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method__generateGlobalEmailSettingsTab" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">675</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">_generateGlobalEmailSettingsTab</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a></span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method__generateLicenseTab">
+        _generateLicenseTab()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method__generateLicenseTab" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">917</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">_generateLicenseTab</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a></span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method__generatePaymentsTab">
+        _generatePaymentsTab()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method__generatePaymentsTab" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">785</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">_generatePaymentsTab</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><a href="../classes/MPHB-Admin-Tabs-SettingsTab.html"><abbr title="\MPHB\Admin\Tabs\SettingsTab">SettingsTab</abbr></a></span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_renderTabs">
+        renderTabs()
+        <a href="../classes/MPHB-Admin-MenuPages-SettingsMenuPage.html#method_renderTabs" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/settings-menu-page.php">includes/admin/menu-pages/settings-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">998</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">renderTabs</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+            </section>
+
+    </article>
+                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="../js/search.js?updated=1679674189"></script>
+    <script src="../js/searchIndex.js?updated=1679674189"></script>
+</body>
+</html>

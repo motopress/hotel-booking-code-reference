@@ -1,0 +1,36 @@
+.phpdocumentor-header {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    padding: 15px 0;
+    background: var(--header-bg-color);
+    color: #fff;
+}
+
+.phpdocumentor-header a {
+    color: inherit;
+    opacity: .85;
+    text-decoration: none;
+}
+
+.phpdocumentor-header a:hover {
+    opacity: 1;
+}
+
+.phpdocumentor-topnav__menu li {
+    margin-left: 20px;
+}
+
+@media (min-width: {{ breakpoints['menu'] }}) {
+    .phpdocumentor-header {
+        flex-direction: row;
+    }
+
+    .phpdocumentor-header__menu-icon {
+        display: none;
+    }
+}
+
