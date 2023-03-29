@@ -132,9 +132,9 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="lite/includes/admin/menu-pages/i-cal-menu-page.php">lite/includes/admin/menu-pages/i-cal-menu-page.php</abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/i-cal-menu-page.php">includes/admin/menu-pages/i-cal-menu-page.php</abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">5</span>
+    <span class="phpdocumentor-element-found-in__line">7</span>
 </aside>
 
         
@@ -215,15 +215,51 @@
 </dt>
 <dd>Custom actions that output just after the page heading</dd>
 
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#property_duplicateUrls">$duplicateUrls</a>
+    <span>
+                &nbsp;: array&lt;string|int, mixed&gt;            </span>
+</dt>
+<dd>Information about all duplicate calendars and rooms, that have the same
+calendar links.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#property_editField">$editField</a>
+    <span>
+                &nbsp;: <a href="classes/MPHB-Admin-Fields-ComplexHorizontalField.html"><abbr title="\MPHB\Admin\Fields\ComplexHorizontalField">ComplexHorizontalField</abbr></a>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#property_isEdit">$isEdit</a>
+    <span>
+                &nbsp;: bool            </span>
+</dt>
+<dd>Show edit page instead of room list.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#property_isEdited">$isEdited</a>
+    <span>
+                &nbsp;: bool            </span>
+</dt>
+<dd>The list of sync URLs was edited on edit page.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#property_rooms">$rooms</a>
+    <span>
+                &nbsp;: <a href="classes/MPHB-Admin-RoomListTable.html"><abbr title="\MPHB\Admin\RoomListTable">RoomListTable</abbr></a>            </span>
+</dt>
+<dd></dd>
+
                 <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MPHB-Admin-AdminPage.html#method___construct">__construct()</a>
+    <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#method___construct">__construct()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#method_addActions">addActions()</a>
+    <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#method_addActions">addActions()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
@@ -245,6 +281,13 @@
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#method_createMenu">createMenu()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#method_enqueueAdminScripts">enqueueAdminScripts()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
@@ -280,6 +323,13 @@
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#method_render">render()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#method_showNotices">showNotices()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
@@ -583,6 +633,166 @@
     
 
 </article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_duplicateUrls">
+        $duplicateUrls
+        <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#property_duplicateUrls" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/i-cal-menu-page.php">includes/admin/menu-pages/i-cal-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">43</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Information about all duplicate calendars and rooms, that have the same
+calendar links.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$duplicateUrls</span>
+     = <span class="phpdocumentor-signature__default-value">array()</span></code>
+
+        <section class="phpdocumentor-description"><p>(Checking for duplicates after each update)</p>
+</section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_editField">
+        $editField
+        <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#property_editField" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/i-cal-menu-page.php">includes/admin/menu-pages/i-cal-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">27</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type"><a href="classes/MPHB-Admin-Fields-ComplexHorizontalField.html"><abbr title="\MPHB\Admin\Fields\ComplexHorizontalField">ComplexHorizontalField</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$editField</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_isEdit">
+        $isEdit
+        <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#property_isEdit" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/i-cal-menu-page.php">includes/admin/menu-pages/i-cal-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">14</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Show edit page instead of room list.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">$isEdit</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_isEdited">
+        $isEdited
+        <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#property_isEdited" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/i-cal-menu-page.php">includes/admin/menu-pages/i-cal-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">21</span>
+</aside>
+
+        <p class="phpdocumentor-summary">The list of sync URLs was edited on edit page.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">$isEdited</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_rooms">
+        $rooms
+        <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#property_rooms" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/i-cal-menu-page.php">includes/admin/menu-pages/i-cal-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">33</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type"><a href="classes/MPHB-Admin-RoomListTable.html"><abbr title="\MPHB\Admin\RoomListTable">RoomListTable</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$rooms</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
             </section>
 
             <section class="phpdocumentor-methods">
@@ -598,21 +808,38 @@
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/MPHB-Admin-AdminPage.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/admin-page.php">includes/admin/admin-page.php</abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/i-cal-menu-page.php">includes/admin/menu-pages/i-cal-menu-page.php</abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$name</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$atts</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     
-    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$name</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$atts</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
@@ -630,12 +857,12 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_addActions">
         addActions()
-        <a href="classes/MPHB-Admin-MenuPages-AbstractMenuPage.html#method_addActions" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#method_addActions" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/abstract-menu-page.php">includes/admin/menu-pages/abstract-menu-page.php</abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/i-cal-menu-page.php">includes/admin/menu-pages/i-cal-menu-page.php</abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">43</span>
+    <span class="phpdocumentor-element-found-in__line">52</span>
 </aside>
 
     
@@ -762,6 +989,38 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">createMenu</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_enqueueAdminScripts">
+        enqueueAdminScripts()
+        <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#method_enqueueAdminScripts" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/i-cal-menu-page.php">includes/admin/menu-pages/i-cal-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">59</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">enqueueAdminScripts</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     
     
@@ -918,9 +1177,9 @@
         <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#method_onLoad" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="lite/includes/admin/menu-pages/i-cal-menu-page.php">lite/includes/admin/menu-pages/i-cal-menu-page.php</abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/i-cal-menu-page.php">includes/admin/menu-pages/i-cal-menu-page.php</abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">159</span>
 </aside>
 
     
@@ -950,15 +1209,47 @@
         <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#method_render" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="lite/includes/admin/menu-pages/i-cal-menu-page.php">lite/includes/admin/menu-pages/i-cal-menu-page.php</abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/i-cal-menu-page.php">includes/admin/menu-pages/i-cal-menu-page.php</abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">7</span>
+    <span class="phpdocumentor-element-found-in__line">97</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">render</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_showNotices">
+        showNotices()
+        <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#method_showNotices" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/i-cal-menu-page.php">includes/admin/menu-pages/i-cal-menu-page.php</abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">65</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">showNotices</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     
     
@@ -982,9 +1273,9 @@
         <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#method_getMenuTitle" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="lite/includes/admin/menu-pages/i-cal-menu-page.php">lite/includes/admin/menu-pages/i-cal-menu-page.php</abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/i-cal-menu-page.php">includes/admin/menu-pages/i-cal-menu-page.php</abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">224</span>
 </aside>
 
     
@@ -1014,9 +1305,9 @@
         <a href="classes/MPHB-Admin-MenuPages-iCalMenuPage.html#method_getPageTitle" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="lite/includes/admin/menu-pages/i-cal-menu-page.php">lite/includes/admin/menu-pages/i-cal-menu-page.php</abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="includes/admin/menu-pages/i-cal-menu-page.php">includes/admin/menu-pages/i-cal-menu-page.php</abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">228</span>
 </aside>
 
     
@@ -1058,7 +1349,7 @@
     <script>
         cssVars({});
     </script>
-    <script src="js/search.js?updated=1680088013"></script>
-    <script src="js/searchIndex.js?updated=1680088013"></script>
+    <script src="js/search.js?updated=1680095436"></script>
+    <script src="js/searchIndex.js?updated=1680095436"></script>
 </body>
 </html>

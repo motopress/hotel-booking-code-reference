@@ -15308,7 +15308,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\MPHB\\Payments\\Gateways\\BraintreeGateway\u003A\u003AisActive\u0028\u0029",
             "name": "isActive",
-            "summary": "",
+            "summary": "Whether\u0020is\u0020Gateway\u0020Eanbled\u0020and\u0020support\u0020current\u0020plugin\u0020settings\u0020\u0028currency,\u0020etc.\u0029",
             "url": "classes/MPHB-Payments-Gateways-BraintreeGateway.html#method_isActive"
         },                {
             "fqsen": "\\MPHB\\Payments\\Gateways\\BraintreeGateway\u003A\u003AisSupportCurrency\u0028\u0029",
@@ -16408,7 +16408,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\MPHB\\Payments\\Gateways\\TwoCheckoutGateway",
             "name": "TwoCheckoutGateway",
-            "summary": "",
+            "summary": "2Checkout",
             "url": "classes/MPHB-Payments-Gateways-TwoCheckoutGateway.html"
         },                {
             "fqsen": "\\MPHB\\Payments\\Gateways\\TwoCheckoutGateway\u003A\u003A__construct\u0028\u0029",
@@ -16468,7 +16468,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\MPHB\\Payments\\Gateways\\TwoCheckoutGateway\u003A\u003AisActive\u0028\u0029",
             "name": "isActive",
-            "summary": "",
+            "summary": "Whether\u0020is\u0020Gateway\u0020Eanbled\u0020and\u0020support\u0020current\u0020plugin\u0020settings\u0020\u0028currency,\u0020etc.\u0029",
             "url": "classes/MPHB-Payments-Gateways-TwoCheckoutGateway.html#method_isActive"
         },                {
             "fqsen": "\\MPHB\\Payments\\Gateways\\TwoCheckoutGateway\u003A\u003AisSupportCurrency\u0028\u0029",
@@ -25546,255 +25546,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/MPHB-Wizard.html#constant_NONCE_ACTION_SKIP"
         },                {
-            "fqsen": "\\MPHB\\Admin\\MenuPages\\AttributesMenuPage",
-            "name": "AttributesMenuPage",
-            "summary": "",
-            "url": "classes/MPHB-Admin-MenuPages-AttributesMenuPage.html"
-        },                {
-            "fqsen": "\\MPHB\\Admin\\MenuPages\\AttributesMenuPage\u003A\u003AonLoad\u0028\u0029",
-            "name": "onLoad",
-            "summary": "",
-            "url": "classes/MPHB-Admin-MenuPages-AttributesMenuPage.html#method_onLoad"
-        },                {
-            "fqsen": "\\MPHB\\Admin\\MenuPages\\AttributesMenuPage\u003A\u003Arender\u0028\u0029",
-            "name": "render",
-            "summary": "",
-            "url": "classes/MPHB-Admin-MenuPages-AttributesMenuPage.html#method_render"
-        },                {
-            "fqsen": "\\MPHB\\Admin\\MenuPages\\AttributesMenuPage\u003A\u003AgetMenuTitle\u0028\u0029",
-            "name": "getMenuTitle",
-            "summary": "",
-            "url": "classes/MPHB-Admin-MenuPages-AttributesMenuPage.html#method_getMenuTitle"
-        },                {
-            "fqsen": "\\MPHB\\Admin\\MenuPages\\AttributesMenuPage\u003A\u003AgetPageTitle\u0028\u0029",
-            "name": "getPageTitle",
-            "summary": "",
-            "url": "classes/MPHB-Admin-MenuPages-AttributesMenuPage.html#method_getPageTitle"
-        },                {
-            "fqsen": "\\MPHB\\Admin\\MenuPages\\EditBookingMenuPage\u003A\u003A\u0024bookingId",
-            "name": "bookingId",
-            "summary": "",
-            "url": "classes/MPHB-Admin-MenuPages-EditBookingMenuPage.html#property_bookingId"
-        },                {
-            "fqsen": "\\MPHB\\Admin\\MenuPages\\UpgradeToPremiumMenuPage",
-            "name": "UpgradeToPremiumMenuPage",
-            "summary": "",
-            "url": "classes/MPHB-Admin-MenuPages-UpgradeToPremiumMenuPage.html"
-        },                {
-            "fqsen": "\\MPHB\\Admin\\MenuPages\\UpgradeToPremiumMenuPage\u003A\u003Arender\u0028\u0029",
-            "name": "render",
-            "summary": "",
-            "url": "classes/MPHB-Admin-MenuPages-UpgradeToPremiumMenuPage.html#method_render"
-        },                {
-            "fqsen": "\\MPHB\\Admin\\MenuPages\\UpgradeToPremiumMenuPage\u003A\u003AonLoad\u0028\u0029",
-            "name": "onLoad",
-            "summary": "",
-            "url": "classes/MPHB-Admin-MenuPages-UpgradeToPremiumMenuPage.html#method_onLoad"
-        },                {
-            "fqsen": "\\MPHB\\Admin\\MenuPages\\UpgradeToPremiumMenuPage\u003A\u003AgetMenuTitle\u0028\u0029",
-            "name": "getMenuTitle",
-            "summary": "",
-            "url": "classes/MPHB-Admin-MenuPages-UpgradeToPremiumMenuPage.html#method_getMenuTitle"
-        },                {
-            "fqsen": "\\MPHB\\Admin\\MenuPages\\UpgradeToPremiumMenuPage\u003A\u003AgetPageTitle\u0028\u0029",
-            "name": "getPageTitle",
-            "summary": "",
-            "url": "classes/MPHB-Admin-MenuPages-UpgradeToPremiumMenuPage.html#method_getPageTitle"
-        },                {
-            "fqsen": "\\MPHB\\Admin\\MenuPages\\UpgradeToPremiumMenuPage\u003A\u003AaddActions\u0028\u0029",
-            "name": "addActions",
-            "summary": "",
-            "url": "classes/MPHB-Admin-MenuPages-UpgradeToPremiumMenuPage.html#method_addActions"
-        },                {
-            "fqsen": "\\MPHB\\Admin\\MenuPages\\UpgradeToPremiumMenuPage\u003A\u003AenqueueScripts\u0028\u0029",
-            "name": "enqueueScripts",
-            "summary": "",
-            "url": "classes/MPHB-Admin-MenuPages-UpgradeToPremiumMenuPage.html#method_enqueueScripts"
-        },                {
-            "fqsen": "\\MPHB\\Admin\\MenuPages\\UpgradeToPremiumMenuPage\u003A\u003AadminFooter\u0028\u0029",
-            "name": "adminFooter",
-            "summary": "",
-            "url": "classes/MPHB-Admin-MenuPages-UpgradeToPremiumMenuPage.html#method_adminFooter"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\BeanstreamGateway\u003A\u003Aregister\u0028\u0029",
-            "name": "register",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-BeanstreamGateway.html#method_register"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\BeanstreamGateway\u003A\u003AgetId\u0028\u0029",
-            "name": "getId",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-BeanstreamGateway.html#method_getId"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\BeanstreamGateway\u003A\u003AgetTitle\u0028\u0029",
-            "name": "getTitle",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-BeanstreamGateway.html#method_getTitle"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\BeanstreamGateway\u003A\u003AgetAdminTitle\u0028\u0029",
-            "name": "getAdminTitle",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-BeanstreamGateway.html#method_getAdminTitle"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\BeanstreamGateway\u003A\u003AgetAdminDescription\u0028\u0029",
-            "name": "getAdminDescription",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-BeanstreamGateway.html#method_getAdminDescription"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\BeanstreamGateway\u003A\u003AisEnabled\u0028\u0029",
-            "name": "isEnabled",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-BeanstreamGateway.html#method_isEnabled"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\BeanstreamGateway\u003A\u003AisActive\u0028\u0029",
-            "name": "isActive",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-BeanstreamGateway.html#method_isActive"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\BeanstreamGateway\u003A\u003AisShowOptions\u0028\u0029",
-            "name": "isShowOptions",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-BeanstreamGateway.html#method_isShowOptions"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\BeanstreamGateway\u003A\u003AgetInstructions\u0028\u0029",
-            "name": "getInstructions",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-BeanstreamGateway.html#method_getInstructions"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\BraintreeGateway\u003A\u003Aregister\u0028\u0029",
-            "name": "register",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-BraintreeGateway.html#method_register"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\BraintreeGateway\u003A\u003AgetId\u0028\u0029",
-            "name": "getId",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-BraintreeGateway.html#method_getId"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\BraintreeGateway\u003A\u003AgetTitle\u0028\u0029",
-            "name": "getTitle",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-BraintreeGateway.html#method_getTitle"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\BraintreeGateway\u003A\u003AgetAdminTitle\u0028\u0029",
-            "name": "getAdminTitle",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-BraintreeGateway.html#method_getAdminTitle"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\BraintreeGateway\u003A\u003AgetAdminDescription\u0028\u0029",
-            "name": "getAdminDescription",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-BraintreeGateway.html#method_getAdminDescription"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\BraintreeGateway\u003A\u003AisEnabled\u0028\u0029",
-            "name": "isEnabled",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-BraintreeGateway.html#method_isEnabled"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\BraintreeGateway\u003A\u003AisShowOptions\u0028\u0029",
-            "name": "isShowOptions",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-BraintreeGateway.html#method_isShowOptions"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\BraintreeGateway\u003A\u003AgetInstructions\u0028\u0029",
-            "name": "getInstructions",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-BraintreeGateway.html#method_getInstructions"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\StripeGateway\u003A\u003Aregister\u0028\u0029",
-            "name": "register",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-StripeGateway.html#method_register"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\StripeGateway\u003A\u003AgetId\u0028\u0029",
-            "name": "getId",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-StripeGateway.html#method_getId"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\StripeGateway\u003A\u003AgetTitle\u0028\u0029",
-            "name": "getTitle",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-StripeGateway.html#method_getTitle"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\StripeGateway\u003A\u003AgetAdminTitle\u0028\u0029",
-            "name": "getAdminTitle",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-StripeGateway.html#method_getAdminTitle"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\StripeGateway\u003A\u003AgetAdminDescription\u0028\u0029",
-            "name": "getAdminDescription",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-StripeGateway.html#method_getAdminDescription"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\StripeGateway\u003A\u003AisEnabled\u0028\u0029",
-            "name": "isEnabled",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-StripeGateway.html#method_isEnabled"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\StripeGateway\u003A\u003AisActive\u0028\u0029",
-            "name": "isActive",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-StripeGateway.html#method_isActive"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\StripeGateway\u003A\u003AisShowOptions\u0028\u0029",
-            "name": "isShowOptions",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-StripeGateway.html#method_isShowOptions"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\StripeGateway\u003A\u003AgetInstructions\u0028\u0029",
-            "name": "getInstructions",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-StripeGateway.html#method_getInstructions"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\TwoCheckoutGateway\u003A\u003Aregister\u0028\u0029",
-            "name": "register",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-TwoCheckoutGateway.html#method_register"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\TwoCheckoutGateway\u003A\u003AgetId\u0028\u0029",
-            "name": "getId",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-TwoCheckoutGateway.html#method_getId"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\TwoCheckoutGateway\u003A\u003AgetTitle\u0028\u0029",
-            "name": "getTitle",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-TwoCheckoutGateway.html#method_getTitle"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\TwoCheckoutGateway\u003A\u003AgetAdminTitle\u0028\u0029",
-            "name": "getAdminTitle",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-TwoCheckoutGateway.html#method_getAdminTitle"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\TwoCheckoutGateway\u003A\u003AgetAdminDescription\u0028\u0029",
-            "name": "getAdminDescription",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-TwoCheckoutGateway.html#method_getAdminDescription"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\TwoCheckoutGateway\u003A\u003AisEnabled\u0028\u0029",
-            "name": "isEnabled",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-TwoCheckoutGateway.html#method_isEnabled"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\TwoCheckoutGateway\u003A\u003AisShowOptions\u0028\u0029",
-            "name": "isShowOptions",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-TwoCheckoutGateway.html#method_isShowOptions"
-        },                {
-            "fqsen": "\\MPHB\\Payments\\Gateways\\TwoCheckoutGateway\u003A\u003AgetInstructions\u0028\u0029",
-            "name": "getInstructions",
-            "summary": "",
-            "url": "classes/MPHB-Payments-Gateways-TwoCheckoutGateway.html#method_getInstructions"
-        },                {
             "fqsen": "\\MPHB_PLUGIN_FILE",
             "name": "MPHB_PLUGIN_FILE",
             "summary": "",
             "url": "namespaces/default.html#constant_MPHB_PLUGIN_FILE"
-        },                {
-            "fqsen": "\\mphb_plugin_action_links\u0028\u0029",
-            "name": "mphb_plugin_action_links",
-            "summary": "",
-            "url": "namespaces/default.html#function_mphb_plugin_action_links"
         },                {
             "fqsen": "\\MPHB\u0028\u0029",
             "name": "MPHB",
