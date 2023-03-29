@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MotoPress Hotel Booking Code Reference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <base href="../">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header">
+    <div class="phpdocumentor-section">
+        <nav class="phpdocumentor-topnav">
+    <div class="site-branding">
+        <a class="site-logo" href="index.html">MotoPress Hotel Booking Code Reference</a>
+    </div>
+    <ul class="phpdocumentor-topnav__menu">
+        <li><a href="hooks/hooks.html">Hooks Reference</a></li>
+                                    <li><a href="https://motopress.com/documentation/wordpress/plugins/hotel-booking/">Documetation</a></li>
+                                                <li><a href="https://motopress.github.io/hotel-booking-rest-api/">REST API</a></li>
+                                                                                    </ul>
+</nav>
+
+    </div>
+</header>
+
+<section data-search-form class="phpdocumentor-search">
+    <div class="phpdocumentor-section">
+        <label>
+            <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+        </label>
+    </div>
+</section>
+
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/mphb.html"><abbr title="\MPHB">MPHB</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="namespaces/mphb-admin.html"><abbr title="\MPHB\Admin">Admin</abbr></a></li>
+                                            <li><a href="namespaces/mphb-advanced.html"><abbr title="\MPHB\Advanced">Advanced</abbr></a></li>
+                                            <li><a href="namespaces/mphb-ajaxapi.html"><abbr title="\MPHB\AjaxApi">AjaxApi</abbr></a></li>
+                                            <li><a href="namespaces/mphb-bookingrules.html"><abbr title="\MPHB\BookingRules">BookingRules</abbr></a></li>
+                                            <li><a href="namespaces/mphb-bundles.html"><abbr title="\MPHB\Bundles">Bundles</abbr></a></li>
+                                            <li><a href="namespaces/mphb-core.html"><abbr title="\MPHB\Core">Core</abbr></a></li>
+                                            <li><a href="namespaces/mphb-crons.html"><abbr title="\MPHB\Crons">Crons</abbr></a></li>
+                                            <li><a href="namespaces/mphb-csv.html"><abbr title="\MPHB\CSV">CSV</abbr></a></li>
+                                            <li><a href="namespaces/mphb-emails.html"><abbr title="\MPHB\Emails">Emails</abbr></a></li>
+                                            <li><a href="namespaces/mphb-entities.html"><abbr title="\MPHB\Entities">Entities</abbr></a></li>
+                                            <li><a href="namespaces/mphb-exceptions.html"><abbr title="\MPHB\Exceptions">Exceptions</abbr></a></li>
+                                            <li><a href="namespaces/mphb-payments.html"><abbr title="\MPHB\Payments">Payments</abbr></a></li>
+                                            <li><a href="namespaces/mphb-persistences.html"><abbr title="\MPHB\Persistences">Persistences</abbr></a></li>
+                                            <li><a href="namespaces/mphb-posttypes.html"><abbr title="\MPHB\PostTypes">PostTypes</abbr></a></li>
+                                            <li><a href="namespaces/mphb-reports.html"><abbr title="\MPHB\Reports">Reports</abbr></a></li>
+                                            <li><a href="namespaces/mphb-repositories.html"><abbr title="\MPHB\Repositories">Repositories</abbr></a></li>
+                                            <li><a href="namespaces/mphb-scriptmanagers.html"><abbr title="\MPHB\ScriptManagers">ScriptManagers</abbr></a></li>
+                                            <li><a href="namespaces/mphb-settings.html"><abbr title="\MPHB\Settings">Settings</abbr></a></li>
+                                            <li><a href="namespaces/mphb-shortcodes.html"><abbr title="\MPHB\Shortcodes">Shortcodes</abbr></a></li>
+                                            <li><a href="namespaces/mphb-taxesandfees.html"><abbr title="\MPHB\TaxesAndFees">TaxesAndFees</abbr></a></li>
+                                            <li><a href="namespaces/mphb-upgrades.html"><abbr title="\MPHB\Upgrades">Upgrades</abbr></a></li>
+                                            <li><a href="namespaces/mphb-useractions.html"><abbr title="\MPHB\UserActions">UserActions</abbr></a></li>
+                                            <li><a href="namespaces/mphb-usersandroles.html"><abbr title="\MPHB\UsersAndRoles">UsersAndRoles</abbr></a></li>
+                                            <li><a href="namespaces/mphb-utils.html"><abbr title="\MPHB\Utils">Utils</abbr></a></li>
+                                            <li><a href="namespaces/mphb-views.html"><abbr title="\MPHB\Views">Views</abbr></a></li>
+                                            <li><a href="namespaces/mphb-widgets.html"><abbr title="\MPHB\Widgets">Widgets</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/MPHB.html"><abbr title="\MPHB">MPHB</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/MPHB-Advanced.html"><abbr title="\MPHB\Advanced">Advanced</abbr></a></li>
+                                    <li><a href="packages/MPHB-Entities.html"><abbr title="\MPHB\Entities">Entities</abbr></a></li>
+                            </ul>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="hooks/hooks.html">Hooks</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                    
+    <h2>Files</h2>
+                            <h3>A</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/includes-crons-abandon-booking-pending-payment-cron.html"><abbr title="includes/crons/abandon-booking-pending-payment-cron.php">abandon-booking-pending-payment-cron.php</abbr></a></li>
+                    <li><a href="files/includes-crons-abandon-booking-pending-user-cron.html"><abbr title="includes/crons/abandon-booking-pending-user-cron.php">abandon-booking-pending-user-cron.php</abbr></a></li>
+                    <li><a href="files/includes-crons-abandon-payment-pending-cron.html"><abbr title="includes/crons/abandon-payment-pending-cron.php">abandon-payment-pending-cron.php</abbr></a></li>
+                    <li><a href="files/includes-ajax-api-ajax-actions-abstract-ajax-api-action.html"><abbr title="includes/ajax-api/ajax-actions/abstract-ajax-api-action.php">abstract-ajax-api-action.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-abstract-complex-field.html"><abbr title="includes/admin/fields/abstract-complex-field.php">abstract-complex-field.php</abbr></a></li>
+                    <li><a href="files/includes-entities-abstract-coupon.html"><abbr title="includes/entities/abstract-coupon.php">abstract-coupon.php</abbr></a></li>
+                    <li><a href="files/includes-post-types-abstract-cpt.html"><abbr title="includes/post-types/abstract-cpt.php">abstract-cpt.php</abbr></a></li>
+                    <li><a href="files/includes-crons-abstract-cron.html"><abbr title="includes/crons/abstract-cron.php">abstract-cron.php</abbr></a></li>
+                    <li><a href="files/includes-core-data-abstract-data-transfer-object.html"><abbr title="includes/core/data/abstract-data-transfer-object.php">abstract-data-transfer-object.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-data-abstract-data.html"><abbr title="includes/advanced/api/data/abstract-data.php">abstract-data.php</abbr></a></li>
+                    <li><a href="files/includes-emails-abstract-email.html"><abbr title="includes/emails/abstract-email.php">abstract-email.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-abstract-menu-page.html"><abbr title="includes/admin/menu-pages/abstract-menu-page.php">abstract-menu-page.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-abstract-notification-listener.html"><abbr title="includes/payments/gateways/abstract-notification-listener.php">abstract-notification-listener.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-data-abstract-post-data.html"><abbr title="includes/advanced/api/data/abstract-post-data.php">abstract-post-data.php</abbr></a></li>
+                    <li><a href="files/includes-repositories-abstract-post-repository.html"><abbr title="includes/repositories/abstract-post-repository.php">abstract-post-repository.php</abbr></a></li>
+                    <li><a href="files/includes-reports-abstract-report.html"><abbr title="includes/reports/abstract-report.php">abstract-report.php</abbr></a></li>
+                    <li><a href="files/includes-reports-data-abstract-reports-data.html"><abbr title="includes/reports/data/abstract-reports-data.php">abstract-reports-data.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-abstract-rest-controller.html"><abbr title="includes/advanced/api/controllers/abstract-rest-controller.php">abstract-rest-controller.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-abstract-rest-object-controller.html"><abbr title="includes/advanced/api/controllers/abstract-rest-object-controller.php">abstract-rest-object-controller.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-abstract-rest-options-controller.html"><abbr title="includes/advanced/api/controllers/abstract-rest-options-controller.php">abstract-rest-options-controller.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-abstract-rest-terms-controller.html"><abbr title="includes/advanced/api/controllers/abstract-rest-terms-controller.php">abstract-rest-terms-controller.php</abbr></a></li>
+                    <li><a href="files/includes-booking-rules-abstract-rule.html"><abbr title="includes/booking-rules/abstract-rule.php">abstract-rule.php</abbr></a></li>
+                    <li><a href="files/includes-booking-rules-abstract-rules-list.html"><abbr title="includes/booking-rules/abstract-rules-list.php">abstract-rules-list.php</abbr></a></li>
+                    <li><a href="files/includes-shortcodes-abstract-shortcode.html"><abbr title="includes/shortcodes/abstract-shortcode.php">abstract-shortcode.php</abbr></a></li>
+                    <li><a href="files/includes-emails-templaters-abstract-templater.html"><abbr title="includes/emails/templaters/abstract-templater.php">abstract-templater.php</abbr></a></li>
+                    <li><a href="files/includes-entities-accommodation-attribute.html"><abbr title="includes/entities/accommodation-attribute.php">accommodation-attribute.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-data-accommodation-data.html"><abbr title="includes/advanced/api/data/accommodation-data.php">accommodation-data.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-v1-accommodation-type-amenities-controller.html"><abbr title="includes/advanced/api/controllers/v1/accommodation-type-amenities-controller.php">accommodation-type-amenities-controller.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-v1-accommodation-type-attribute-terms-controller.html"><abbr title="includes/advanced/api/controllers/v1/accommodation-type-attribute-terms-controller.php">accommodation-type-attribute-terms-controller.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-v1-accommodation-type-attributes-controller.html"><abbr title="includes/advanced/api/controllers/v1/accommodation-type-attributes-controller.php">accommodation-type-attributes-controller.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-v1-accommodation-type-categories-controller.html"><abbr title="includes/advanced/api/controllers/v1/accommodation-type-categories-controller.php">accommodation-type-categories-controller.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-data-accommodation-type-data.html"><abbr title="includes/advanced/api/data/accommodation-type-data.php">accommodation-type-data.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-v1-accommodation-type-images-controller.html"><abbr title="includes/advanced/api/controllers/v1/accommodation-type-images-controller.php">accommodation-type-images-controller.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-v1-accommodation-type-services-controller.html"><abbr title="includes/advanced/api/controllers/v1/accommodation-type-services-controller.php">accommodation-type-services-controller.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-v1-accommodation-type-tags-controller.html"><abbr title="includes/advanced/api/controllers/v1/accommodation-type-tags-controller.php">accommodation-type-tags-controller.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-data-accommodation-types-attribute-data.html"><abbr title="includes/advanced/api/data/accommodation-types-attribute-data.php">accommodation-types-attribute-data.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-v1-accommodation-types-controller.html"><abbr title="includes/advanced/api/controllers/v1/accommodation-types-controller.php">accommodation-types-controller.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-v1-accommodations-controller.html"><abbr title="includes/advanced/api/controllers/v1/accommodations-controller.php">accommodations-controller.php</abbr></a></li>
+                    <li><a href="files/templates-account-account-details.html"><abbr title="templates/account/account-details.php">account-details.php</abbr></a></li>
+                    <li><a href="files/includes-shortcodes-account-shortcode.html"><abbr title="includes/shortcodes/account-shortcode.php">account-shortcode.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-action-button-field.html"><abbr title="includes/admin/fields/action-button-field.php">action-button-field.php</abbr></a></li>
+                    <li><a href="files/includes-user-actions-action-link-helper.html"><abbr title="includes/user-actions/action-link-helper.php">action-link-helper.php</abbr></a></li>
+                    <li><a href="files/includes-actions-handler.html"><abbr title="includes/actions-handler.php">actions-handler.php</abbr></a></li>
+                    <li><a href="files/templates-edit-booking-add-room-popup.html"><abbr title="templates/edit-booking/add-room-popup.php">add-room-popup.php</abbr></a></li>
+                    <li><a href="files/templates-emails-admin-customer-cancelled-booking.html"><abbr title="templates/emails/admin-customer-cancelled-booking.php">admin-customer-cancelled-booking.php</abbr></a></li>
+                    <li><a href="files/templates-emails-admin-customer-confirmed-booking.html"><abbr title="templates/emails/admin-customer-confirmed-booking.php">admin-customer-confirmed-booking.php</abbr></a></li>
+                    <li><a href="files/includes-admin-admin-page.html"><abbr title="includes/admin/admin-page.php">admin-page.php</abbr></a></li>
+                    <li><a href="files/templates-emails-admin-payment-confirmed-booking.html"><abbr title="templates/emails/admin-payment-confirmed-booking.php">admin-payment-confirmed-booking.php</abbr></a></li>
+                    <li><a href="files/templates-emails-admin-pending-booking.html"><abbr title="templates/emails/admin-pending-booking.php">admin-pending-booking.php</abbr></a></li>
+                    <li><a href="files/includes-script-managers-admin-script-manager.html"><abbr title="includes/script-managers/admin-script-manager.php">admin-script-manager.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-admin-admin.html"><abbr title="includes/advanced/admin/admin.php">admin.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-attributes-adults.html"><abbr title="templates/loop-room-type/attributes/adults.php">adults.php</abbr></a></li>
+                    <li><a href="files/templates-single-room-type-attributes-adults.html"><abbr title="templates/single-room-type/attributes/adults.php">adults.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-advanced.html"><abbr title="includes/advanced/advanced.php">advanced.php</abbr></a></li>
+                    <li><a href="files/includes-ajax-api-ajax-api-handler.html"><abbr title="includes/ajax-api/ajax-api-handler.php">ajax-api-handler.php</abbr></a></li>
+                    <li><a href="files/includes-ajax.html"><abbr title="includes/ajax.php">ajax.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-booking-cancellation-already-cancelled.html"><abbr title="templates/shortcodes/booking-cancellation/already-cancelled.php">already-cancelled.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-booking-confirmation-already-confirmed.html"><abbr title="templates/shortcodes/booking-confirmation/already-confirmed.php">already-confirmed.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-amount-field.html"><abbr title="includes/admin/fields/amount-field.php">amount-field.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-api-authentication.html"><abbr title="includes/advanced/api/api-authentication.php">api-authentication.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-api-helper.html"><abbr title="includes/advanced/api/api-helper.php">api-helper.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-admin-tab-subtabs-api-keys-api-keys-ajax.html"><abbr title="includes/advanced/admin/tab/subtabs/api-keys/api-keys-ajax.php">api-keys-ajax.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-admin-tab-subtabs-api-keys-api-keys-screen-option.html"><abbr title="includes/advanced/admin/tab/subtabs/api-keys/api-keys-screen-option.php">api-keys-screen-option.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-admin-tab-subtabs-api-keys-api-keys-table-list.html"><abbr title="includes/advanced/admin/tab/subtabs/api-keys/api-keys-table-list.php">api-keys-table-list.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-admin-tab-subtabs-api-keys-api-keys.html"><abbr title="includes/advanced/admin/tab/subtabs/api-keys/api-keys.php">api-keys.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-api.html"><abbr title="includes/advanced/api/api.php">api.php</abbr></a></li>
+                    <li><a href="files/includes-emails-booking-customer-approved-email.html"><abbr title="includes/emails/booking/customer/approved-email.php">approved-email.php</abbr></a></li>
+                    <li><a href="files/includes-attribute-functions.html"><abbr title="includes/attribute-functions.php">attribute-functions.php</abbr></a></li>
+                    <li><a href="files/includes-repositories-attribute-repository.html"><abbr title="includes/repositories/attribute-repository.php">attribute-repository.php</abbr></a></li>
+                    <li><a href="files/includes-post-types-attributes-cpt.html"><abbr title="includes/post-types/attributes-cpt.php">attributes-cpt.php</abbr></a></li>
+                    <li><a href="files/includes-admin-edit-cpt-pages-attributes-edit-cpt-page.html"><abbr title="includes/admin/edit-cpt-pages/attributes-edit-cpt-page.php">attributes-edit-cpt-page.php</abbr></a></li>
+                    <li><a href="files/includes-admin-manage-cpt-pages-attributes-manage-cpt-page.html"><abbr title="includes/admin/manage-cpt-pages/attributes-manage-cpt-page.php">attributes-manage-cpt-page.php</abbr></a></li>
+                    <li><a href="files/lite-includes-admin-menu-pages-attributes-menu-page.html"><abbr title="lite/includes/admin/menu-pages/attributes-menu-page.php">attributes-menu-page.php</abbr></a></li>
+                    <li><a href="files/includes-persistences-attributes-persistence.html"><abbr title="includes/persistences/attributes-persistence.php">attributes-persistence.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-attributes.html"><abbr title="templates/loop-room-type/attributes.php">attributes.php</abbr></a></li>
+                    <li><a href="files/templates-single-room-type-attributes.html"><abbr title="templates/single-room-type/attributes.php">attributes.php</abbr></a></li>
+                    <li><a href="files/includes-autoloader.html"><abbr title="includes/autoloader.php">autoloader.php</abbr></a></li>
+                    <li><a href="files/includes-shortcodes-availability-calendar-shortcode.html"><abbr title="includes/shortcodes/availability-calendar-shortcode.php">availability-calendar-shortcode.php</abbr></a></li>
+                </ul>
+                                    <h3>B</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/includes-upgrades-background-booking-upgrader-2-0-0.html"><abbr title="includes/upgrades/background-booking-upgrader-2-0-0.php">background-booking-upgrader-2-0-0.php</abbr></a></li>
+                    <li><a href="files/includes-upgrades-background-booking-upgrader-2-2-0.html"><abbr title="includes/upgrades/background-booking-upgrader-2-2-0.php">background-booking-upgrader-2-2-0.php</abbr></a></li>
+                    <li><a href="files/includes-upgrades-background-booking-upgrader-2-3-0.html"><abbr title="includes/upgrades/background-booking-upgrader-2-3-0.php">background-booking-upgrader-2-3-0.php</abbr></a></li>
+                    <li><a href="files/includes-upgrades-background-booking-upgrader-4-2-0.html"><abbr title="includes/upgrades/background-booking-upgrader-4-2-0.php">background-booking-upgrader-4-2-0.php</abbr></a></li>
+                    <li><a href="files/includes-background-pausable-process.html"><abbr title="includes/background-pausable-process.php">background-pausable-process.php</abbr></a></li>
+                    <li><a href="files/includes-background-process.html"><abbr title="includes/background-process.php">background-process.php</abbr></a></li>
+                    <li><a href="files/includes-upgrades-background-upgrader.html"><abbr title="includes/upgrades/background-upgrader.php">background-upgrader.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-bank-gateway.html"><abbr title="includes/payments/gateways/bank-gateway.php">bank-gateway.php</abbr></a></li>
+                    <li><a href="files/includes-emails-booking-customer-base-email.html"><abbr title="includes/emails/booking/customer/base-email.php">base-email.php</abbr></a></li>
+                    <li><a href="files/includes-emails-booking-admin-base-email.html"><abbr title="includes/emails/booking/admin/base-email.php">base-email.php</abbr></a></li>
+                    <li><a href="files/includes-widgets-base-widget.html"><abbr title="includes/widgets/base-widget.php">base-widget.php</abbr></a></li>
+                    <li><a href="files/lite-includes-payments-gateways-beanstream-gateway.html"><abbr title="lite/includes/payments/gateways/beanstream-gateway.php">beanstream-gateway.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-beanstream-gateway.html"><abbr title="includes/payments/gateways/beanstream-gateway.php">beanstream-gateway.php</abbr></a></li>
+                    <li><a href="files/templates-single-room-type-attributes-bedtype.html"><abbr title="templates/single-room-type/attributes/bedType.php">bedType.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-attributes-bedtype.html"><abbr title="templates/loop-room-type/attributes/bedType.php">bedType.php</abbr></a></li>
+                    <li><a href="files/includes-script-managers-block-script-manager.html"><abbr title="includes/script-managers/block-script-manager.php">block-script-manager.php</abbr></a></li>
+                    <li><a href="files/includes-blocks-render.html"><abbr title="includes/blocks-render.php">blocks-render.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-book-button.html"><abbr title="templates/loop-room-type/book-button.php">book-button.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-v1-booking-availability-controller.html"><abbr title="includes/advanced/api/controllers/v1/booking-availability-controller.php">booking-availability-controller.php</abbr></a></li>
+                    <li><a href="files/includes-user-actions-booking-cancellation-action.html"><abbr title="includes/user-actions/booking-cancellation-action.php">booking-cancellation-action.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-booking-cancellation-booking-cancellation-button.html"><abbr title="templates/shortcodes/booking-cancellation/booking-cancellation-button.php">booking-cancellation-button.php</abbr></a></li>
+                    <li><a href="files/includes-shortcodes-booking-cancellation-shortcode.html"><abbr title="includes/shortcodes/booking-cancellation-shortcode.php">booking-cancellation-shortcode.php</abbr></a></li>
+                    <li><a href="files/includes-user-actions-booking-confirmation-action.html"><abbr title="includes/user-actions/booking-confirmation-action.php">booking-confirmation-action.php</abbr></a></li>
+                    <li><a href="files/includes-shortcodes-booking-confirmation-shortcode.html"><abbr title="includes/shortcodes/booking-confirmation-shortcode.php">booking-confirmation-shortcode.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-edit-booking-booking-control.html"><abbr title="includes/admin/menu-pages/edit-booking/booking-control.php">booking-control.php</abbr></a></li>
+                    <li><a href="files/includes-post-types-booking-cpt.html"><abbr title="includes/post-types/booking-cpt.php">booking-cpt.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-data-booking-data.html"><abbr title="includes/advanced/api/data/booking-data.php">booking-data.php</abbr></a></li>
+                    <li><a href="files/includes-utils-booking-details-util.html"><abbr title="includes/utils/booking-details-util.php">booking-details-util.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-booking-details-booking-details.html"><abbr title="templates/shortcodes/booking-details/booking-details.php">booking-details.php</abbr></a></li>
+                    <li><a href="files/includes-admin-edit-cpt-pages-booking-edit-cpt-page.html"><abbr title="includes/admin/edit-cpt-pages/booking-edit-cpt-page.php">booking-edit-cpt-page.php</abbr></a></li>
+                    <li><a href="files/includes-shortcodes-booking-form-shortcode.html"><abbr title="includes/shortcodes/booking-form-shortcode.php">booking-form-shortcode.php</abbr></a></li>
+                    <li><a href="files/includes-admin-manage-cpt-pages-booking-manage-cpt-page.html"><abbr title="includes/admin/manage-cpt-pages/booking-manage-cpt-page.php">booking-manage-cpt-page.php</abbr></a></li>
+                    <li><a href="files/includes-persistences-booking-persistence.html"><abbr title="includes/persistences/booking-persistence.php">booking-persistence.php</abbr></a></li>
+                    <li><a href="files/includes-repositories-booking-repository.html"><abbr title="includes/repositories/booking-repository.php">booking-repository.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-v1-booking-rules-controller.html"><abbr title="includes/advanced/api/controllers/v1/booking-rules-controller.php">booking-rules-controller.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-booking-rules-menu-page.html"><abbr title="includes/admin/menu-pages/booking-rules-menu-page.php">booking-rules-menu-page.php</abbr></a></li>
+                    <li><a href="files/includes-settings-booking-rules-settings.html"><abbr title="includes/settings/booking-rules-settings.php">booking-rules-settings.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-create-booking-booking-step.html"><abbr title="includes/admin/menu-pages/create-booking/booking-step.php">booking-step.php</abbr></a></li>
+                    <li><a href="files/includes-utils-booking-utils.html"><abbr title="includes/utils/booking-utils.php">booking-utils.php</abbr></a></li>
+                    <li><a href="files/includes-user-actions-booking-view-action.html"><abbr title="includes/user-actions/booking-view-action.php">booking-view-action.php</abbr></a></li>
+                    <li><a href="files/includes-views-booking-view.html"><abbr title="includes/views/booking-view.php">booking-view.php</abbr></a></li>
+                    <li><a href="files/includes-entities-booking.html"><abbr title="includes/entities/booking.php">booking.php</abbr></a></li>
+                    <li><a href="files/includes-bookings-calendar.html"><abbr title="includes/bookings-calendar.php">bookings-calendar.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-v1-bookings-controller.html"><abbr title="includes/advanced/api/controllers/v1/bookings-controller.php">bookings-controller.php</abbr></a></li>
+                    <li><a href="files/includes-csv-bookings-bookings-exporter.html"><abbr title="includes/csv/bookings/bookings-exporter.php">bookings-exporter.php</abbr></a></li>
+                    <li><a href="files/includes-csv-bookings-bookings-parser.html"><abbr title="includes/csv/bookings/bookings-parser.php">bookings-parser.php</abbr></a></li>
+                    <li><a href="files/includes-csv-bookings-bookings-query.html"><abbr title="includes/csv/bookings/bookings-query.php">bookings-query.php</abbr></a></li>
+                    <li><a href="files/templates-account-bookings.html"><abbr title="templates/account/bookings.php">bookings.php</abbr></a></li>
+                    <li><a href="files/lite-includes-payments-gateways-braintree-gateway.html"><abbr title="lite/includes/payments/gateways/braintree-gateway.php">braintree-gateway.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-braintree-gateway.html"><abbr title="includes/payments/gateways/braintree-gateway.php">braintree-gateway.php</abbr></a></li>
+                    <li><a href="files/includes-booking-rules-buffer-buffer-days-rule.html"><abbr title="includes/booking-rules/buffer/buffer-days-rule.php">buffer-days-rule.php</abbr></a></li>
+                    <li><a href="files/includes-booking-rules-buffer-buffer-rules-list.html"><abbr title="includes/booking-rules/buffer/buffer-rules-list.php">buffer-rules-list.php</abbr></a></li>
+                </ul>
+                                    <h3>C</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/includes-calendar-feed.html"><abbr title="includes/calendar-feed.php">calendar-feed.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-calendar-menu-page.html"><abbr title="includes/admin/menu-pages/calendar-menu-page.php">calendar-menu-page.php</abbr></a></li>
+                    <li><a href="files/templates-single-room-type-calendar.html"><abbr title="templates/single-room-type/calendar.php">calendar.php</abbr></a></li>
+                    <li><a href="files/includes-emails-templaters-cancellation-booking-templater.html"><abbr title="includes/emails/templaters/cancellation-booking-templater.php">cancellation-booking-templater.php</abbr></a></li>
+                    <li><a href="files/templates-emails-cancellation-details.html"><abbr title="templates/emails/cancellation-details.php">cancellation-details.php</abbr></a></li>
+                    <li><a href="files/includes-emails-booking-admin-cancelled-email.html"><abbr title="includes/emails/booking/admin/cancelled-email.php">cancelled-email.php</abbr></a></li>
+                    <li><a href="files/includes-emails-booking-customer-cancelled-email.html"><abbr title="includes/emails/booking/customer/cancelled-email.php">cancelled-email.php</abbr></a></li>
+                    <li><a href="files/includes-users-and-roles-capabilities-and-roles.html"><abbr title="includes/users-and-roles/capabilities-and-roles.php">capabilities-and-roles.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-cash-gateway.html"><abbr title="includes/payments/gateways/cash-gateway.php">cash-gateway.php</abbr></a></li>
+                    <li><a href="files/includes-utils-cast-utils.html"><abbr title="includes/utils/cast-utils.php">cast-utils.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-attributes-categories.html"><abbr title="templates/loop-room-type/attributes/categories.php">categories.php</abbr></a></li>
+                    <li><a href="files/templates-single-room-type-attributes-categories.html"><abbr title="templates/single-room-type/attributes/categories.php">categories.php</abbr></a></li>
+                    <li><a href="files/includes-booking-rules-reservation-check-in-rule.html"><abbr title="includes/booking-rules/reservation/check-in-rule.php">check-in-rule.php</abbr></a></li>
+                    <li><a href="files/includes-booking-rules-reservation-check-out-rule.html"><abbr title="includes/booking-rules/reservation/check-out-rule.php">check-out-rule.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-checkbox-field.html"><abbr title="includes/admin/fields/checkbox-field.php">checkbox-field.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-edit-booking-checkout-control.html"><abbr title="includes/admin/menu-pages/edit-booking/checkout-control.php">checkout-control.php</abbr></a></li>
+                    <li><a href="files/templates-create-booking-checkout-checkout-form.html"><abbr title="templates/create-booking/checkout/checkout-form.php">checkout-form.php</abbr></a></li>
+                    <li><a href="files/templates-edit-booking-checkout-form.html"><abbr title="templates/edit-booking/checkout-form.php">checkout-form.php</abbr></a></li>
+                    <li><a href="files/includes-shortcodes-checkout-shortcode.html"><abbr title="includes/shortcodes/checkout-shortcode.php">checkout-shortcode.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-create-booking-checkout-step.html"><abbr title="includes/admin/menu-pages/create-booking/checkout-step.php">checkout-step.php</abbr></a></li>
+                    <li><a href="files/includes-views-edit-booking-checkout-view.html"><abbr title="includes/views/edit-booking/checkout-view.php">checkout-view.php</abbr></a></li>
+                    <li><a href="files/includes-views-shortcodes-checkout-view.html"><abbr title="includes/views/shortcodes/checkout-view.php">checkout-view.php</abbr></a></li>
+                    <li><a href="files/includes-views-create-booking-checkout-view.html"><abbr title="includes/views/create-booking/checkout-view.php">checkout-view.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-attributes-children.html"><abbr title="templates/loop-room-type/attributes/children.php">children.php</abbr></a></li>
+                    <li><a href="files/templates-single-room-type-attributes-children.html"><abbr title="templates/single-room-type/attributes/children.php">children.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-color-picker-field.html"><abbr title="includes/admin/fields/color-picker-field.php">color-picker-field.php</abbr></a></li>
+                    <li><a href="files/includes-utils-color-utils.html"><abbr title="includes/utils/color-utils.php">color-utils.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-payment-confirmation-completed.html"><abbr title="templates/shortcodes/payment-confirmation/completed.php">completed.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-complex-horizontal-field.html"><abbr title="includes/admin/fields/complex-horizontal-field.php">complex-horizontal-field.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-complex-vertical-field.html"><abbr title="includes/admin/fields/complex-vertical-field.php">complex-vertical-field.php</abbr></a></li>
+                    <li><a href="files/includes-emails-booking-customer-confirmation-email.html"><abbr title="includes/emails/booking/customer/confirmation-email.php">confirmation-email.php</abbr></a></li>
+                    <li><a href="files/includes-emails-booking-admin-confirmed-by-payment-email.html"><abbr title="includes/emails/booking/admin/confirmed-by-payment-email.php">confirmed-by-payment-email.php</abbr></a></li>
+                    <li><a href="files/includes-emails-booking-admin-confirmed-email.html"><abbr title="includes/emails/booking/admin/confirmed-email.php">confirmed-email.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-booking-confirmation-confirmed.html"><abbr title="templates/shortcodes/booking-confirmation/confirmed.php">confirmed.php</abbr></a></li>
+                    <li><a href="files/includes-core-core-api.html"><abbr title="includes/core/core-api.php">core-api.php</abbr></a></li>
+                    <li><a href="files/includes-bundles-countries-bundle.html"><abbr title="includes/bundles/countries-bundle.php">countries-bundle.php</abbr></a></li>
+                    <li><a href="files/includes-post-types-coupon-cpt.html"><abbr title="includes/post-types/coupon-cpt.php">coupon-cpt.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-data-coupon-data.html"><abbr title="includes/advanced/api/data/coupon-data.php">coupon-data.php</abbr></a></li>
+                    <li><a href="files/includes-admin-edit-cpt-pages-coupon-edit-cpt-page.html"><abbr title="includes/admin/edit-cpt-pages/coupon-edit-cpt-page.php">coupon-edit-cpt-page.php</abbr></a></li>
+                    <li><a href="files/includes-admin-manage-cpt-pages-coupon-manage-cpt-page.html"><abbr title="includes/admin/manage-cpt-pages/coupon-manage-cpt-page.php">coupon-manage-cpt-page.php</abbr></a></li>
+                    <li><a href="files/includes-repositories-coupon-repository.html"><abbr title="includes/repositories/coupon-repository.php">coupon-repository.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-v1-coupons-controller.html"><abbr title="includes/advanced/api/controllers/v1/coupons-controller.php">coupons-controller.php</abbr></a></li>
+                    <li><a href="files/includes-persistences-cpt-persistence.html"><abbr title="includes/persistences/cpt-persistence.php">cpt-persistence.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-create-booking-menu-page.html"><abbr title="includes/admin/menu-pages/create-booking-menu-page.php">create-booking-menu-page.php</abbr></a></li>
+                    <li><a href="files/includes-crons-cron-manager.html"><abbr title="includes/crons/cron-manager.php">cron-manager.php</abbr></a></li>
+                    <li><a href="files/includes-csv-csv-file.html"><abbr title="includes/csv/csv-file.php">csv-file.php</abbr></a></li>
+                    <li><a href="files/includes-bundles-currency-bundle.html"><abbr title="includes/bundles/currency-bundle.php">currency-bundle.php</abbr></a></li>
+                    <li><a href="files/includes-settings-currency-settings.html"><abbr title="includes/settings/currency-settings.php">currency-settings.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-attributes-custom-attributes.html"><abbr title="templates/loop-room-type/attributes/custom-attributes.php">custom-attributes.php</abbr></a></li>
+                    <li><a href="files/templates-single-room-type-attributes-custom-attributes.html"><abbr title="templates/single-room-type/attributes/custom-attributes.php">custom-attributes.php</abbr></a></li>
+                    <li><a href="files/includes-custom-post-types.html"><abbr title="includes/custom-post-types.php">custom-post-types.php</abbr></a></li>
+                    <li><a href="files/includes-booking-rules-custom-custom-rule.html"><abbr title="includes/booking-rules/custom/custom-rule.php">custom-rule.php</abbr></a></li>
+                    <li><a href="files/includes-booking-rules-custom-custom-rules.html"><abbr title="includes/booking-rules/custom/custom-rules.php">custom-rules.php</abbr></a></li>
+                    <li><a href="files/templates-emails-customer-approved-booking.html"><abbr title="templates/emails/customer-approved-booking.php">customer-approved-booking.php</abbr></a></li>
+                    <li><a href="files/includes-bundles-customer-bundle.html"><abbr title="includes/bundles/customer-bundle.php">customer-bundle.php</abbr></a></li>
+                    <li><a href="files/templates-emails-customer-cancelled-booking.html"><abbr title="templates/emails/customer-cancelled-booking.php">customer-cancelled-booking.php</abbr></a></li>
+                    <li><a href="files/templates-emails-customer-confirmation-booking.html"><abbr title="templates/emails/customer-confirmation-booking.php">customer-confirmation-booking.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-data-customer-data.html"><abbr title="includes/advanced/api/data/customer-data.php">customer-data.php</abbr></a></li>
+                    <li><a href="files/templates-emails-payment-gateways-direct-bank-transfer-customer-pending-booking.html"><abbr title="templates/emails/payment-gateways/direct-bank-transfer/customer-pending-booking.php">customer-pending-booking.php</abbr></a></li>
+                    <li><a href="files/templates-emails-customer-pending-booking.html"><abbr title="templates/emails/customer-pending-booking.php">customer-pending-booking.php</abbr></a></li>
+                    <li><a href="files/templates-emails-customer-registration.html"><abbr title="templates/emails/customer-registration.php">customer-registration.php</abbr></a></li>
+                    <li><a href="files/includes-entities-customer.html"><abbr title="includes/entities/customer.php">customer.php</abbr></a></li>
+                    <li><a href="files/includes-users-and-roles-customer.html"><abbr title="includes/users-and-roles/customer.php">customer.php</abbr></a></li>
+                    <li><a href="files/includes-admin-customers-list-table.html"><abbr title="includes/admin/customers-list-table.php">customers-list-table.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-customers-menu-page.html"><abbr title="includes/admin/menu-pages/customers-menu-page.php">customers-menu-page.php</abbr></a></li>
+                    <li><a href="files/includes-users-and-roles-customers.html"><abbr title="includes/users-and-roles/customers.php">customers.php</abbr></a></li>
+                </ul>
+                                    <h3>D</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/templates-account-dashboard.html"><abbr title="templates/account/dashboard.php">dashboard.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-data-data-factory.html"><abbr title="includes/advanced/api/data/data-factory.php">data-factory.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-date-picker-field.html"><abbr title="includes/admin/fields/date-picker-field.php">date-picker-field.php</abbr></a></li>
+                    <li><a href="files/includes-settings-date-time-settings.html"><abbr title="includes/settings/date-time-settings.php">date-time-settings.php</abbr></a></li>
+                    <li><a href="files/includes-utils-date-utils.html"><abbr title="includes/utils/date-utils.php">date-utils.php</abbr></a></li>
+                    <li><a href="files/includes-script-managers-datepick-locales.html"><abbr title="includes/script-managers/datepick-locales.php">datepick-locales.php</abbr></a></li>
+                    <li><a href="files/includes-crons-delete-old-sync-logs-cron.html"><abbr title="includes/crons/delete-old-sync-logs-cron.php">delete-old-sync-logs-cron.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-dependent-field.html"><abbr title="includes/admin/fields/dependent-field.php">dependent-field.php</abbr></a></li>
+                    <li><a href="files/templates-loop-service-description.html"><abbr title="templates/loop-service/description.php">description.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-description.html"><abbr title="templates/loop-room-type/description.php">description.php</abbr></a></li>
+                    <li><a href="files/templates-single-room-type-description.html"><abbr title="templates/single-room-type/description.php">description.php</abbr></a></li>
+                    <li><a href="files/includes-emails-booking-customer-direct-bank-transfer-email.html"><abbr title="includes/emails/booking/customer/direct-bank-transfer-email.php">direct-bank-transfer-email.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-dynamic-select-field.html"><abbr title="includes/admin/fields/dynamic-select-field.php">dynamic-select-field.php</abbr></a></li>
+                </ul>
+                                    <h3>E</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/includes-reports-earnings-report.html"><abbr title="includes/reports/earnings-report.php">earnings-report.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-edit-booking-menu-page.html"><abbr title="includes/admin/menu-pages/edit-booking-menu-page.php">edit-booking-menu-page.php</abbr></a></li>
+                    <li><a href="files/lite-includes-admin-menu-pages-edit-booking-menu-page.html"><abbr title="lite/includes/admin/menu-pages/edit-booking-menu-page.php">edit-booking-menu-page.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-edit-booking-edit-control.html"><abbr title="includes/admin/menu-pages/edit-booking/edit-control.php">edit-control.php</abbr></a></li>
+                    <li><a href="files/includes-admin-edit-cpt-pages-edit-cpt-page.html"><abbr title="includes/admin/edit-cpt-pages/edit-cpt-page.php">edit-cpt-page.php</abbr></a></li>
+                    <li><a href="files/templates-edit-booking-edit-dates.html"><abbr title="templates/edit-booking/edit-dates.php">edit-dates.php</abbr></a></li>
+                    <li><a href="files/templates-edit-booking-edit-reserved-rooms.html"><abbr title="templates/edit-booking/edit-reserved-rooms.php">edit-reserved-rooms.php</abbr></a></li>
+                    <li><a href="files/includes-post-types-editable-cpt.html"><abbr title="includes/post-types/editable-cpt.php">editable-cpt.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-email-field.html"><abbr title="includes/admin/fields/email-field.php">email-field.php</abbr></a></li>
+                    <li><a href="files/includes-emails-templates-email-footer.html"><abbr title="includes/emails/templates/email-footer.php">email-footer.php</abbr></a></li>
+                    <li><a href="files/includes-emails-templates-email-header.html"><abbr title="includes/emails/templates/email-header.php">email-header.php</abbr></a></li>
+                    <li><a href="files/includes-settings-email-settings.html"><abbr title="includes/settings/email-settings.php">email-settings.php</abbr></a></li>
+                    <li><a href="files/includes-emails-templates-email-styles.html"><abbr title="includes/emails/templates/email-styles.php">email-styles.php</abbr></a></li>
+                    <li><a href="files/includes-emails-templaters-email-templater.html"><abbr title="includes/emails/templaters/email-templater.php">email-templater.php</abbr></a></li>
+                    <li><a href="files/includes-emails-emails.html"><abbr title="includes/emails/emails.php">emails.php</abbr></a></li>
+                    <li><a href="files/templates-create-booking-errors.html"><abbr title="templates/create-booking/errors.php">errors.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-search-results-errors.html"><abbr title="templates/shortcodes/search-results/errors.php">errors.php</abbr></a></li>
+                    <li><a href="files/templates-edit-booking-errors.html"><abbr title="templates/edit-booking/errors.php">errors.php</abbr></a></li>
+                    <li><a href="files/templates-single-room-type-excerpt.html"><abbr title="templates/single-room-type/excerpt.php">excerpt.php</abbr></a></li>
+                    <li><a href="files/templates-loop-service-excerpt.html"><abbr title="templates/loop-service/excerpt.php">excerpt.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-excerpt.html"><abbr title="templates/loop-room-type/excerpt.php">excerpt.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-booking-confirmation-expired.html"><abbr title="templates/shortcodes/booking-confirmation/expired.php">expired.php</abbr></a></li>
+                    <li><a href="files/includes-bundles-export-bundle.html"><abbr title="includes/bundles/export-bundle.php">export-bundle.php</abbr></a></li>
+                    <li><a href="files/includes-settings-export-settings.html"><abbr title="includes/settings/export-settings.php">export-settings.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-extensions-menu-page.html"><abbr title="includes/admin/menu-pages/extensions-menu-page.php">extensions-menu-page.php</abbr></a></li>
+                </ul>
+                                    <h3>F</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/templates-single-room-type-attributes-facilities.html"><abbr title="templates/single-room-type/attributes/facilities.php">facilities.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-attributes-facilities.html"><abbr title="templates/loop-room-type/attributes/facilities.php">facilities.php</abbr></a></li>
+                    <li><a href="files/includes-admin-manage-tax-pages-facility-manage-tax-page.html"><abbr title="includes/admin/manage-tax-pages/facility-manage-tax-page.php">facility-manage-tax-page.php</abbr></a></li>
+                    <li><a href="files/templates-loop-service-featured-image.html"><abbr title="templates/loop-service/featured-image.php">featured-image.php</abbr></a></li>
+                    <li><a href="files/templates-single-room-type-featured-image.html"><abbr title="templates/single-room-type/featured-image.php">featured-image.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-featured-image.html"><abbr title="templates/loop-room-type/featured-image.php">featured-image.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-field-factory.html"><abbr title="includes/admin/fields/field-factory.php">field-factory.php</abbr></a></li>
+                    <li><a href="files/includes-entities-fixed-accommodation-coupon.html"><abbr title="includes/entities/fixed-accommodation-coupon.php">fixed-accommodation-coupon.php</abbr></a></li>
+                    <li><a href="files/includes-entities-fixed-accommodation-per-day-coupon.html"><abbr title="includes/entities/fixed-accommodation-per-day-coupon.php">fixed-accommodation-per-day-coupon.php</abbr></a></li>
+                    <li><a href="files/includes-fixes.html"><abbr title="includes/fixes.php">fixes.php</abbr></a></li>
+                    <li><a href="files/functions.html"><abbr title="functions.php">functions.php</abbr></a></li>
+                </ul>
+                                    <h3>G</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/templates-single-room-type-gallery.html"><abbr title="templates/single-room-type/gallery.php">gallery.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-gallery.html"><abbr title="templates/loop-room-type/gallery.php">gallery.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-gateway-interface.html"><abbr title="includes/payments/gateways/gateway-interface.php">gateway-interface.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-gateway-manager.html"><abbr title="includes/payments/gateways/gateway-manager.php">gateway-manager.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-gateway.html"><abbr title="includes/payments/gateways/gateway.php">gateway.php</abbr></a></li>
+                    <li><a href="files/includes-ajax-api-ajax-actions-get-admin-calendar-booking-info.html"><abbr title="includes/ajax-api/ajax-actions/get-admin-calendar-booking-info.php">get-admin-calendar-booking-info.php</abbr></a></li>
+                    <li><a href="files/includes-ajax-api-ajax-actions-get-room-type-availability-data.html"><abbr title="includes/ajax-api/ajax-actions/get-room-type-availability-data.php">get-room-type-availability-data.php</abbr></a></li>
+                    <li><a href="files/includes-ajax-api-ajax-actions-get-room-type-calendar-data.html"><abbr title="includes/ajax-api/ajax-actions/get-room-type-calendar-data.php">get-room-type-calendar-data.php</abbr></a></li>
+                    <li><a href="files/includes-views-global-view.html"><abbr title="includes/views/global-view.php">global-view.php</abbr></a></li>
+                </ul>
+                                    <h3>H</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/includes-advanced-admin-tab-subtabs-api-keys-html-keys-edit.html"><abbr title="includes/advanced/admin/tab/subtabs/api-keys/html-keys-edit.php">html-keys-edit.php</abbr></a></li>
+                </ul>
+                                    <h3>I</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/includes-admin-menu-pages-i-cal-import-menu-page.html"><abbr title="includes/admin/menu-pages/i-cal-import-menu-page.php">i-cal-import-menu-page.php</abbr></a></li>
+                    <li><a href="files/lite-includes-admin-menu-pages-i-cal-menu-page.html"><abbr title="lite/includes/admin/menu-pages/i-cal-menu-page.php">i-cal-menu-page.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-i-cal-menu-page.html"><abbr title="includes/admin/menu-pages/i-cal-menu-page.php">i-cal-menu-page.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-i-cal-sync-logs-menu-page.html"><abbr title="includes/admin/menu-pages/i-cal-sync-logs-menu-page.php">i-cal-sync-logs-menu-page.php</abbr></a></li>
+                    <li><a href="files/includes-crons-ical-auto-synchronization-cron.html"><abbr title="includes/crons/ical-auto-synchronization-cron.php">ical-auto-synchronization-cron.php</abbr></a></li>
+                    <li><a href="files/includes-importer.html"><abbr title="includes/importer.php">importer.php</abbr></a></li>
+                    <li><a href="files/assets-others-index.html"><abbr title="assets/others/index.php">index.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-input-field.html"><abbr title="includes/admin/fields/input-field.php">input-field.php</abbr></a></li>
+                    <li><a href="files/includes-admin-groups-input-group.html"><abbr title="includes/admin/groups/input-group.php">input-group.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-two-checkout-ins-listener.html"><abbr title="includes/payments/gateways/two-checkout/ins-listener.php">ins-listener.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-install-plugin-field.html"><abbr title="includes/admin/fields/install-plugin-field.php">install-plugin-field.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-booking-cancellation-invalid-request.html"><abbr title="templates/shortcodes/booking-cancellation/invalid-request.php">invalid-request.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-booking-confirmation-invalid-request.html"><abbr title="templates/shortcodes/booking-confirmation/invalid-request.php">invalid-request.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-paypal-ipn-listener.html"><abbr title="includes/payments/gateways/paypal/ipn-listener.php">ipn-listener.php</abbr></a></li>
+                </ul>
+                                                                            <h3>L</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/includes-admin-menu-pages-language-menu-page.html"><abbr title="includes/admin/menu-pages/language-menu-page.php">language-menu-page.php</abbr></a></li>
+                    <li><a href="files/templates-edit-booking-last-checkout.html"><abbr title="templates/edit-booking/last-checkout.php">last-checkout.php</abbr></a></li>
+                    <li><a href="files/includes-license-notice.html"><abbr title="includes/license-notice.php">license-notice.php</abbr></a></li>
+                    <li><a href="files/includes-admin-groups-license-settings-group.html"><abbr title="includes/admin/groups/license-settings-group.php">license-settings-group.php</abbr></a></li>
+                    <li><a href="files/includes-settings-license-settings.html"><abbr title="includes/settings/license-settings.php">license-settings.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-link-button-field.html"><abbr title="includes/admin/fields/link-button-field.php">link-button-field.php</abbr></a></li>
+                    <li><a href="files/includes-post-types-booking-cpt-logs.html"><abbr title="includes/post-types/booking-cpt/logs.php">logs.php</abbr></a></li>
+                    <li><a href="files/includes-views-loop-room-type-view.html"><abbr title="includes/views/loop-room-type-view.php">loop-room-type-view.php</abbr></a></li>
+                    <li><a href="files/includes-views-loop-service-view.html"><abbr title="includes/views/loop-service-view.php">loop-service-view.php</abbr></a></li>
+                </ul>
+                                    <h3>M</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/includes-emails-mailer.html"><abbr title="includes/emails/mailer.php">mailer.php</abbr></a></li>
+                    <li><a href="files/includes-settings-main-settings.html"><abbr title="includes/settings/main-settings.php">main-settings.php</abbr></a></li>
+                    <li><a href="files/includes-admin-manage-cpt-pages-manage-cpt-page.html"><abbr title="includes/admin/manage-cpt-pages/manage-cpt-page.php">manage-cpt-page.php</abbr></a></li>
+                    <li><a href="files/includes-admin-manage-tax-pages-manage-tax-page.html"><abbr title="includes/admin/manage-tax-pages/manage-tax-page.php">manage-tax-page.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-manual-gateway.html"><abbr title="includes/payments/gateways/manual-gateway.php">manual-gateway.php</abbr></a></li>
+                    <li><a href="files/includes-booking-rules-reservation-max-advance-days-rule.html"><abbr title="includes/booking-rules/reservation/max-advance-days-rule.php">max-advance-days-rule.php</abbr></a></li>
+                    <li><a href="files/includes-booking-rules-reservation-max-days-rule.html"><abbr title="includes/booking-rules/reservation/max-days-rule.php">max-days-rule.php</abbr></a></li>
+                    <li><a href="files/includes-polyfills-mbstring.html"><abbr title="includes/polyfills/mbstring.php">mbstring.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-media-field.html"><abbr title="includes/admin/fields/media-field.php">media-field.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menus.html"><abbr title="includes/admin/menus.php">menus.php</abbr></a></li>
+                    <li><a href="files/includes-admin-groups-meta-box-group.html"><abbr title="includes/admin/groups/meta-box-group.php">meta-box-group.php</abbr></a></li>
+                    <li><a href="files/includes-booking-rules-reservation-min-advance-days-rule.html"><abbr title="includes/booking-rules/reservation/min-advance-days-rule.php">min-advance-days-rule.php</abbr></a></li>
+                    <li><a href="files/includes-booking-rules-reservation-min-days-rule.html"><abbr title="includes/booking-rules/reservation/min-days-rule.php">min-days-rule.php</abbr></a></li>
+                    <li><a href="files/motopress-hotel-booking.html"><abbr title="motopress-hotel-booking.php">motopress-hotel-booking.php</abbr></a></li>
+                    <li><a href="files/lite-motopress-hotel-booking.html"><abbr title="lite/motopress-hotel-booking.php">motopress-hotel-booking.php</abbr></a></li>
+                    <li><a href="files/includes-exceptions-mphb-exception.html"><abbr title="includes/exceptions/mphb-exception.php">mphb-exception.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-multiple-checkbox-field.html"><abbr title="includes/admin/fields/multiple-checkbox-field.php">multiple-checkbox-field.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-multiple-select-field.html"><abbr title="includes/admin/fields/multiple-select-field.php">multiple-select-field.php</abbr></a></li>
+                </ul>
+                                    <h3>N</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/includes-exceptions-no-enough-execution-time-exception.html"><abbr title="includes/exceptions/no-enough-execution-time-exception.php">no-enough-execution-time-exception.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-room-rates-not-found.html"><abbr title="templates/shortcodes/room-rates/not-found.php">not-found.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-rooms-not-found.html"><abbr title="templates/shortcodes/rooms/not-found.php">not-found.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-services-not-found.html"><abbr title="templates/shortcodes/services/not-found.php">not-found.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-room-not-found.html"><abbr title="templates/shortcodes/room/not-found.php">not-found.php</abbr></a></li>
+                    <li><a href="files/templates-widgets-rooms-not-found.html"><abbr title="templates/widgets/rooms/not-found.php">not-found.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-booking-cancellation-not-possible.html"><abbr title="templates/shortcodes/booking-cancellation/not-possible.php">not-possible.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-booking-confirmation-not-possible.html"><abbr title="templates/shortcodes/booking-confirmation/not-possible.php">not-possible.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-notes-list-field.html"><abbr title="includes/admin/fields/notes-list-field.php">notes-list-field.php</abbr></a></li>
+                    <li><a href="files/includes-notices.html"><abbr title="includes/notices.php">notices.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-number-field.html"><abbr title="includes/admin/fields/number-field.php">number-field.php</abbr></a></li>
+                </ul>
+                                    <h3>O</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/includes-advanced-api-data-options-schema.html"><abbr title="includes/advanced/api/data/options-schema.php">options-schema.php</abbr></a></li>
+                </ul>
+                                    <h3>P</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/includes-admin-fields-page-select-field.html"><abbr title="includes/admin/fields/page-select-field.php">page-select-field.php</abbr></a></li>
+                    <li><a href="files/includes-settings-page-settings.html"><abbr title="includes/settings/page-settings.php">page-settings.php</abbr></a></li>
+                    <li><a href="files/includes-utils-parse-utils.html"><abbr title="includes/utils/parse-utils.php">parse-utils.php</abbr></a></li>
+                    <li><a href="files/includes-post-types-payment-cpt.html"><abbr title="includes/post-types/payment-cpt.php">payment-cpt.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-data-payment-data.html"><abbr title="includes/advanced/api/data/payment-data.php">payment-data.php</abbr></a></li>
+                    <li><a href="files/includes-admin-edit-cpt-pages-payment-edit-cpt-page.html"><abbr title="includes/admin/edit-cpt-pages/payment-edit-cpt-page.php">payment-edit-cpt-page.php</abbr></a></li>
+                    <li><a href="files/includes-admin-manage-cpt-pages-payment-manage-cpt-page.html"><abbr title="includes/admin/manage-cpt-pages/payment-manage-cpt-page.php">payment-manage-cpt-page.php</abbr></a></li>
+                    <li><a href="files/includes-payments-payment-manager.html"><abbr title="includes/payments/payment-manager.php">payment-manager.php</abbr></a></li>
+                    <li><a href="files/includes-persistences-payment-persistence.html"><abbr title="includes/persistences/payment-persistence.php">payment-persistence.php</abbr></a></li>
+                    <li><a href="files/includes-repositories-payment-repository.html"><abbr title="includes/repositories/payment-repository.php">payment-repository.php</abbr></a></li>
+                    <li><a href="files/includes-settings-payment-settings.html"><abbr title="includes/settings/payment-settings.php">payment-settings.php</abbr></a></li>
+                    <li><a href="files/includes-entities-payment.html"><abbr title="includes/entities/payment.php">payment.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-v1-payments-controller.html"><abbr title="includes/advanced/api/controllers/v1/payments-controller.php">payments-controller.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-paypal-gateway.html"><abbr title="includes/payments/gateways/paypal-gateway.php">paypal-gateway.php</abbr></a></li>
+                    <li><a href="files/includes-emails-booking-customer-pending-email.html"><abbr title="includes/emails/booking/customer/pending-email.php">pending-email.php</abbr></a></li>
+                    <li><a href="files/includes-emails-booking-admin-pending-email.html"><abbr title="includes/emails/booking/admin/pending-email.php">pending-email.php</abbr></a></li>
+                    <li><a href="files/includes-entities-percent-coupon.html"><abbr title="includes/entities/percent-coupon.php">percent-coupon.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-placeholder-field.html"><abbr title="includes/admin/fields/placeholder-field.php">placeholder-field.php</abbr></a></li>
+                    <li><a href="files/plugin.html"><abbr title="plugin.php">plugin.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-post-id-field.html"><abbr title="includes/admin/fields/post-id-field.php">post-id-field.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-price-breakdown-field.html"><abbr title="includes/admin/fields/price-breakdown-field.php">price-breakdown-field.php</abbr></a></li>
+                    <li><a href="files/templates-single-room-type-price-for-dates.html"><abbr title="templates/single-room-type/price-for-dates.php">price-for-dates.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-price-for-dates.html"><abbr title="templates/loop-room-type/price-for-dates.php">price-for-dates.php</abbr></a></li>
+                    <li><a href="files/templates-single-service-price.html"><abbr title="templates/single-service/price.php">price.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-price.html"><abbr title="templates/loop-room-type/price.php">price.php</abbr></a></li>
+                    <li><a href="files/templates-loop-service-price.html"><abbr title="templates/loop-service/price.php">price.php</abbr></a></li>
+                    <li><a href="files/templates-single-room-type-price.html"><abbr title="templates/single-room-type/price.php">price.php</abbr></a></li>
+                    <li><a href="files/includes-script-managers-public-script-manager.html"><abbr title="includes/script-managers/public-script-manager.php">public-script-manager.php</abbr></a></li>
+                </ul>
+                                                        <h3>R</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/includes-admin-fields-radio-field.html"><abbr title="includes/admin/fields/radio-field.php">radio-field.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-room-rates-rate-content.html"><abbr title="templates/shortcodes/room-rates/rate-content.php">rate-content.php</abbr></a></li>
+                    <li><a href="files/includes-post-types-rate-cpt.html"><abbr title="includes/post-types/rate-cpt.php">rate-cpt.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-data-rate-data.html"><abbr title="includes/advanced/api/data/rate-data.php">rate-data.php</abbr></a></li>
+                    <li><a href="files/includes-admin-edit-cpt-pages-rate-edit-cpt-page.html"><abbr title="includes/admin/edit-cpt-pages/rate-edit-cpt-page.php">rate-edit-cpt-page.php</abbr></a></li>
+                    <li><a href="files/includes-admin-manage-cpt-pages-rate-manage-cpt-page.html"><abbr title="includes/admin/manage-cpt-pages/rate-manage-cpt-page.php">rate-manage-cpt-page.php</abbr></a></li>
+                    <li><a href="files/includes-persistences-rate-persistence.html"><abbr title="includes/persistences/rate-persistence.php">rate-persistence.php</abbr></a></li>
+                    <li><a href="files/includes-repositories-rate-repository.html"><abbr title="includes/repositories/rate-repository.php">rate-repository.php</abbr></a></li>
+                    <li><a href="files/includes-entities-rate.html"><abbr title="includes/entities/rate.php">rate.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-v1-rates-controller.html"><abbr title="includes/advanced/api/controllers/v1/rates-controller.php">rates-controller.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-payment-confirmation-received.html"><abbr title="templates/shortcodes/payment-confirmation/received.php">received.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-booking-confirmation-received.html"><abbr title="templates/shortcodes/booking-confirmation/received.php">received.php</abbr></a></li>
+                    <li><a href="files/includes-recommendation.html"><abbr title="includes/recommendation.php">recommendation.php</abbr></a></li>
+                    <li><a href="files/includes-emails-booking-customer-registration-email.html"><abbr title="includes/emails/booking/customer/registration-email.php">registration-email.php</abbr></a></li>
+                    <li><a href="files/includes-reports-data-report-by-dates-data.html"><abbr title="includes/reports/data/report-by-dates-data.php">report-by-dates-data.php</abbr></a></li>
+                    <li><a href="files/includes-reports-data-report-earnings-by-dates-data.html"><abbr title="includes/reports/data/report-earnings-by-dates-data.php">report-earnings-by-dates-data.php</abbr></a></li>
+                    <li><a href="files/includes-reports-report-filters.html"><abbr title="includes/reports/report-filters.php">report-filters.php</abbr></a></li>
+                    <li><a href="files/includes-reports-report.html"><abbr title="includes/reports/report.php">report.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-reports-menu-page.html"><abbr title="includes/admin/menu-pages/reports-menu-page.php">reports-menu-page.php</abbr></a></li>
+                    <li><a href="files/includes-exceptions-request-exception.html"><abbr title="includes/exceptions/request-exception.php">request-exception.php</abbr></a></li>
+                    <li><a href="files/templates-required-fields-tip.html"><abbr title="templates/required-fields-tip.php">required-fields-tip.php</abbr></a></li>
+                    <li><a href="files/templates-single-room-type-reservation-form.html"><abbr title="templates/single-room-type/reservation-form.php">reservation-form.php</abbr></a></li>
+                    <li><a href="files/includes-reservation-request.html"><abbr title="includes/reservation-request.php">reservation-request.php</abbr></a></li>
+                    <li><a href="files/includes-booking-rules-reservation-reservation-rules-list.html"><abbr title="includes/booking-rules/reservation/reservation-rules-list.php">reservation-rules-list.php</abbr></a></li>
+                    <li><a href="files/includes-booking-rules-reservation-reservation-rules.html"><abbr title="includes/booking-rules/reservation/reservation-rules.php">reservation-rules.php</abbr></a></li>
+                    <li><a href="files/templates-create-booking-results-reserve-rooms.html"><abbr title="templates/create-booking/results/reserve-rooms.php">reserve-rooms.php</abbr></a></li>
+                    <li><a href="files/includes-post-types-reserved-room-cpt.html"><abbr title="includes/post-types/reserved-room-cpt.php">reserved-room-cpt.php</abbr></a></li>
+                    <li><a href="files/templates-emails-reserved-room-details.html"><abbr title="templates/emails/reserved-room-details.php">reserved-room-details.php</abbr></a></li>
+                    <li><a href="files/includes-persistences-reserved-room-persistence.html"><abbr title="includes/persistences/reserved-room-persistence.php">reserved-room-persistence.php</abbr></a></li>
+                    <li><a href="files/includes-repositories-reserved-room-repository.html"><abbr title="includes/repositories/reserved-room-repository.php">reserved-room-repository.php</abbr></a></li>
+                    <li><a href="files/includes-views-reserved-room-view.html"><abbr title="includes/views/reserved-room-view.php">reserved-room-view.php</abbr></a></li>
+                    <li><a href="files/includes-entities-reserved-room.html"><abbr title="includes/entities/reserved-room.php">reserved-room.php</abbr></a></li>
+                    <li><a href="files/includes-emails-templaters-reserved-rooms-templater.html"><abbr title="includes/emails/templaters/reserved-rooms-templater.php">reserved-rooms-templater.php</abbr></a></li>
+                    <li><a href="files/includes-entities-reserved-service.html"><abbr title="includes/entities/reserved-service.php">reserved-service.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-search-results-results-info.html"><abbr title="templates/shortcodes/search-results/results-info.php">results-info.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-create-booking-results-step.html"><abbr title="includes/admin/menu-pages/create-booking/results-step.php">results-step.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-rich-editor-field.html"><abbr title="includes/admin/fields/rich-editor-field.php">rich-editor-field.php</abbr></a></li>
+                    <li><a href="files/includes-users-and-roles-role.html"><abbr title="includes/users-and-roles/role.php">role.php</abbr></a></li>
+                    <li><a href="files/includes-users-and-roles-roles.html"><abbr title="includes/users-and-roles/roles.php">roles.php</abbr></a></li>
+                    <li><a href="files/includes-core-helpers-room-availability-helper.html"><abbr title="includes/core/helpers/room-availability-helper.php">room-availability-helper.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-room-room-content.html"><abbr title="templates/shortcodes/room/room-content.php">room-content.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-rooms-room-content.html"><abbr title="templates/shortcodes/rooms/room-content.php">room-content.php</abbr></a></li>
+                    <li><a href="files/templates-widgets-rooms-room-content.html"><abbr title="templates/widgets/rooms/room-content.php">room-content.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-search-results-room-content.html"><abbr title="templates/shortcodes/search-results/room-content.php">room-content.php</abbr></a></li>
+                    <li><a href="files/includes-post-types-room-cpt.html"><abbr title="includes/post-types/room-cpt.php">room-cpt.php</abbr></a></li>
+                    <li><a href="files/includes-admin-room-list-table.html"><abbr title="includes/admin/room-list-table.php">room-list-table.php</abbr></a></li>
+                    <li><a href="files/includes-admin-manage-cpt-pages-room-manage-cpt-page.html"><abbr title="includes/admin/manage-cpt-pages/room-manage-cpt-page.php">room-manage-cpt-page.php</abbr></a></li>
+                    <li><a href="files/includes-persistences-room-persistence.html"><abbr title="includes/persistences/room-persistence.php">room-persistence.php</abbr></a></li>
+                    <li><a href="files/includes-shortcodes-room-rates-shortcode.html"><abbr title="includes/shortcodes/room-rates-shortcode.php">room-rates-shortcode.php</abbr></a></li>
+                    <li><a href="files/includes-repositories-room-repository.html"><abbr title="includes/repositories/room-repository.php">room-repository.php</abbr></a></li>
+                    <li><a href="files/includes-shortcodes-room-shortcode.html"><abbr title="includes/shortcodes/room-shortcode.php">room-shortcode.php</abbr></a></li>
+                    <li><a href="files/includes-core-data-room-type-availability-data.html"><abbr title="includes/core/data/room-type-availability-data.php">room-type-availability-data.php</abbr></a></li>
+                    <li><a href="files/includes-core-data-room-type-availability-status.html"><abbr title="includes/core/data/room-type-availability-status.php">room-type-availability-status.php</abbr></a></li>
+                    <li><a href="files/includes-post-types-room-type-cpt.html"><abbr title="includes/post-types/room-type-cpt.php">room-type-cpt.php</abbr></a></li>
+                    <li><a href="files/includes-persistences-room-type-dependenced-persistence.html"><abbr title="includes/persistences/room-type-dependenced-persistence.php">room-type-dependenced-persistence.php</abbr></a></li>
+                    <li><a href="files/includes-admin-edit-cpt-pages-room-type-edit-cpt-page.html"><abbr title="includes/admin/edit-cpt-pages/room-type-edit-cpt-page.php">room-type-edit-cpt-page.php</abbr></a></li>
+                    <li><a href="files/includes-admin-manage-cpt-pages-room-type-manage-cpt-page.html"><abbr title="includes/admin/manage-cpt-pages/room-type-manage-cpt-page.php">room-type-manage-cpt-page.php</abbr></a></li>
+                    <li><a href="files/includes-persistences-room-type-persistence.html"><abbr title="includes/persistences/room-type-persistence.php">room-type-persistence.php</abbr></a></li>
+                    <li><a href="files/includes-repositories-room-type-repository.html"><abbr title="includes/repositories/room-type-repository.php">room-type-repository.php</abbr></a></li>
+                    <li><a href="files/includes-views-room-type-view.html"><abbr title="includes/views/room-type-view.php">room-type-view.php</abbr></a></li>
+                    <li><a href="files/includes-entities-room-type.html"><abbr title="includes/entities/room-type.php">room-type.php</abbr></a></li>
+                    <li><a href="files/includes-entities-room.html"><abbr title="includes/entities/room.php">room.php</abbr></a></li>
+                    <li><a href="files/templates-create-booking-results-rooms-found.html"><abbr title="templates/create-booking/results/rooms-found.php">rooms-found.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-rooms-generator-menu-page.html"><abbr title="includes/admin/menu-pages/rooms-generator-menu-page.php">rooms-generator-menu-page.php</abbr></a></li>
+                    <li><a href="files/includes-shortcodes-rooms-shortcode.html"><abbr title="includes/shortcodes/rooms-shortcode.php">rooms-shortcode.php</abbr></a></li>
+                    <li><a href="files/includes-widgets-rooms-widget.html"><abbr title="includes/widgets/rooms-widget.php">rooms-widget.php</abbr></a></li>
+                    <li><a href="files/includes-booking-rules-rule-verify-interface.html"><abbr title="includes/booking-rules/rule-verify-interface.php">rule-verify-interface.php</abbr></a></li>
+                    <li><a href="files/includes-booking-rules-rules-checker.html"><abbr title="includes/booking-rules/rules-checker.php">rules-checker.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-rules-list-field.html"><abbr title="includes/admin/fields/rules-list-field.php">rules-list-field.php</abbr></a></li>
+                </ul>
+                                    <h3>S</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/includes-script-managers-script-manager.html"><abbr title="includes/script-managers/script-manager.php">script-manager.php</abbr></a></li>
+                    <li><a href="files/includes-widgets-search-availability-widget.html"><abbr title="includes/widgets/search-availability-widget.php">search-availability-widget.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-search-search-form.html"><abbr title="templates/shortcodes/search/search-form.php">search-form.php</abbr></a></li>
+                    <li><a href="files/templates-widgets-search-availability-search-form.html"><abbr title="templates/widgets/search-availability/search-form.php">search-form.php</abbr></a></li>
+                    <li><a href="files/templates-create-booking-search-search-form.html"><abbr title="templates/create-booking/search/search-form.php">search-form.php</abbr></a></li>
+                    <li><a href="files/includes-search-parameters-storage.html"><abbr title="includes/search-parameters-storage.php">search-parameters-storage.php</abbr></a></li>
+                    <li><a href="files/includes-shortcodes-search-results-shortcode.html"><abbr title="includes/shortcodes/search-results-shortcode.php">search-results-shortcode.php</abbr></a></li>
+                    <li><a href="files/includes-shortcodes-search-shortcode.html"><abbr title="includes/shortcodes/search-shortcode.php">search-shortcode.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-create-booking-search-step.html"><abbr title="includes/admin/menu-pages/create-booking/search-step.php">search-step.php</abbr></a></li>
+                    <li><a href="files/includes-post-types-season-cpt.html"><abbr title="includes/post-types/season-cpt.php">season-cpt.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-data-season-data.html"><abbr title="includes/advanced/api/data/season-data.php">season-data.php</abbr></a></li>
+                    <li><a href="files/includes-admin-manage-cpt-pages-season-manage-cpt-page.html"><abbr title="includes/admin/manage-cpt-pages/season-manage-cpt-page.php">season-manage-cpt-page.php</abbr></a></li>
+                    <li><a href="files/includes-entities-season-price.html"><abbr title="includes/entities/season-price.php">season-price.php</abbr></a></li>
+                    <li><a href="files/includes-repositories-season-repository.html"><abbr title="includes/repositories/season-repository.php">season-repository.php</abbr></a></li>
+                    <li><a href="files/includes-entities-season.html"><abbr title="includes/entities/season.php">season.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-v1-seasons-controller.html"><abbr title="includes/advanced/api/controllers/v1/seasons-controller.php">seasons-controller.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-select-field.html"><abbr title="includes/admin/fields/select-field.php">select-field.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-server.html"><abbr title="includes/advanced/api/server.php">server.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-service-chooser-field.html"><abbr title="includes/admin/fields/service-chooser-field.php">service-chooser-field.php</abbr></a></li>
+                    <li><a href="files/templates-shortcodes-services-service-content.html"><abbr title="templates/shortcodes/services/service-content.php">service-content.php</abbr></a></li>
+                    <li><a href="files/includes-post-types-service-cpt.html"><abbr title="includes/post-types/service-cpt.php">service-cpt.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-data-service-data.html"><abbr title="includes/advanced/api/data/service-data.php">service-data.php</abbr></a></li>
+                    <li><a href="files/includes-admin-manage-cpt-pages-service-manage-cpt-page.html"><abbr title="includes/admin/manage-cpt-pages/service-manage-cpt-page.php">service-manage-cpt-page.php</abbr></a></li>
+                    <li><a href="files/includes-repositories-service-repository.html"><abbr title="includes/repositories/service-repository.php">service-repository.php</abbr></a></li>
+                    <li><a href="files/includes-entities-service.html"><abbr title="includes/entities/service.php">service.php</abbr></a></li>
+                    <li><a href="files/includes-shortcodes-services-shortcode.html"><abbr title="includes/shortcodes/services-shortcode.php">services-shortcode.php</abbr></a></li>
+                    <li><a href="files/includes-session.html"><abbr title="includes/session.php">session.php</abbr></a></li>
+                    <li><a href="files/includes-admin-groups-settings-group.html"><abbr title="includes/admin/groups/settings-group.php">settings-group.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-settings-menu-page.html"><abbr title="includes/admin/menu-pages/settings-menu-page.php">settings-menu-page.php</abbr></a></li>
+                    <li><a href="files/includes-settings-settings-registry.html"><abbr title="includes/settings/settings-registry.php">settings-registry.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-admin-tab-settings-sub-tab-advanced.html"><abbr title="includes/advanced/admin/tab/settings-sub-tab-advanced.php">settings-sub-tab-advanced.php</abbr></a></li>
+                    <li><a href="files/includes-admin-tabs-settings-sub-tab.html"><abbr title="includes/admin/tabs/settings-sub-tab.php">settings-sub-tab.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-admin-tab-settings-tab-advanced.html"><abbr title="includes/advanced/admin/tab/settings-tab-advanced.php">settings-tab-advanced.php</abbr></a></li>
+                    <li><a href="files/includes-admin-tabs-settings-tab.html"><abbr title="includes/admin/tabs/settings-tab.php">settings-tab.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-shortcodes-menu-page.html"><abbr title="includes/admin/menu-pages/shortcodes-menu-page.php">shortcodes-menu-page.php</abbr></a></li>
+                    <li><a href="files/includes-shortcodes.html"><abbr title="includes/shortcodes.php">shortcodes.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-single-checkbox-field.html"><abbr title="includes/admin/fields/single-checkbox-field.php">single-checkbox-field.php</abbr></a></li>
+                    <li><a href="files/includes-views-single-room-type-view.html"><abbr title="includes/views/single-room-type-view.php">single-room-type-view.php</abbr></a></li>
+                    <li><a href="files/templates-single-room-type.html"><abbr title="templates/single-room-type.php">single-room-type.php</abbr></a></li>
+                    <li><a href="files/includes-views-single-service-view.html"><abbr title="includes/views/single-service-view.php">single-service-view.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-traits-singleton-trait.html"><abbr title="includes/advanced/api/traits/singleton-trait.php">singleton-trait.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-attributes-size.html"><abbr title="templates/loop-room-type/attributes/size.php">size.php</abbr></a></li>
+                    <li><a href="files/templates-single-room-type-attributes-size.html"><abbr title="templates/single-room-type/attributes/size.php">size.php</abbr></a></li>
+                    <li><a href="files/includes-post-types-payment-cpt-statuses.html"><abbr title="includes/post-types/payment-cpt/statuses.php">statuses.php</abbr></a></li>
+                    <li><a href="files/includes-post-types-abstract-cpt-statuses.html"><abbr title="includes/post-types/abstract-cpt/statuses.php">statuses.php</abbr></a></li>
+                    <li><a href="files/includes-post-types-booking-cpt-statuses.html"><abbr title="includes/post-types/booking-cpt/statuses.php">statuses.php</abbr></a></li>
+                    <li><a href="files/includes-shortcodes-checkout-shortcode-step-booking.html"><abbr title="includes/shortcodes/checkout-shortcode/step-booking.php">step-booking.php</abbr></a></li>
+                    <li><a href="files/includes-shortcodes-checkout-shortcode-step-checkout.html"><abbr title="includes/shortcodes/checkout-shortcode/step-checkout.php">step-checkout.php</abbr></a></li>
+                    <li><a href="files/includes-shortcodes-checkout-shortcode-step-complete.html"><abbr title="includes/shortcodes/checkout-shortcode/step-complete.php">step-complete.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-edit-booking-step-control.html"><abbr title="includes/admin/menu-pages/edit-booking/step-control.php">step-control.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-create-booking-step.html"><abbr title="includes/admin/menu-pages/create-booking/step.php">step.php</abbr></a></li>
+                    <li><a href="files/includes-shortcodes-checkout-shortcode-step.html"><abbr title="includes/shortcodes/checkout-shortcode/step.php">step.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-stripe-stripe-api6.html"><abbr title="includes/payments/gateways/stripe/stripe-api6.php">stripe-api6.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-stripe-gateway.html"><abbr title="includes/payments/gateways/stripe-gateway.php">stripe-gateway.php</abbr></a></li>
+                    <li><a href="files/lite-includes-payments-gateways-stripe-gateway.html"><abbr title="lite/includes/payments/gateways/stripe-gateway.php">stripe-gateway.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-edit-booking-summary-control.html"><abbr title="includes/admin/menu-pages/edit-booking/summary-control.php">summary-control.php</abbr></a></li>
+                    <li><a href="files/templates-edit-booking-summary-table.html"><abbr title="templates/edit-booking/summary-table.php">summary-table.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-two-checkout-supported-currencies.html"><abbr title="includes/payments/gateways/two-checkout/supported-currencies.php">supported-currencies.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-paypal-supported-currencies.html"><abbr title="includes/payments/gateways/paypal/supported-currencies.php">supported-currencies.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-braintree-supported-currencies.html"><abbr title="includes/payments/gateways/braintree/supported-currencies.php">supported-currencies.php</abbr></a></li>
+                    <li><a href="files/includes-admin-sync-logs-list-table.html"><abbr title="includes/admin/sync-logs-list-table.php">sync-logs-list-table.php</abbr></a></li>
+                    <li><a href="files/includes-admin-sync-rooms-list-table.html"><abbr title="includes/admin/sync-rooms-list-table.php">sync-rooms-list-table.php</abbr></a></li>
+                    <li><a href="files/includes-repositories-sync-urls-repository.html"><abbr title="includes/repositories/sync-urls-repository.php">sync-urls-repository.php</abbr></a></li>
+                </ul>
+                                    <h3>T</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/includes-advanced-admin-tab-tab.html"><abbr title="includes/advanced/admin/tab/tab.php">tab.php</abbr></a></li>
+                    <li><a href="files/includes-advanced-api-controllers-v1-taxes-and-fees-controller.html"><abbr title="includes/advanced/api/controllers/v1/taxes-and-fees-controller.php">taxes-and-fees-controller.php</abbr></a></li>
+                    <li><a href="files/includes-admin-menu-pages-taxes-and-fees-menu-page.html"><abbr title="includes/admin/menu-pages/taxes-and-fees-menu-page.php">taxes-and-fees-menu-page.php</abbr></a></li>
+                    <li><a href="files/includes-settings-taxes-and-fees-settings.html"><abbr title="includes/settings/taxes-and-fees-settings.php">taxes-and-fees-settings.php</abbr></a></li>
+                    <li><a href="files/includes-utils-taxes-and-fees-utils.html"><abbr title="includes/utils/taxes-and-fees-utils.php">taxes-and-fees-utils.php</abbr></a></li>
+                    <li><a href="files/includes-taxes-and-fees-taxes-and-fees.html"><abbr title="includes/taxes-and-fees/taxes-and-fees.php">taxes-and-fees.php</abbr></a></li>
+                    <li><a href="files/template-functions.html"><abbr title="template-functions.php">template-functions.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-test-gateway.html"><abbr title="includes/payments/gateways/test-gateway.php">test-gateway.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-text-field.html"><abbr title="includes/admin/fields/text-field.php">text-field.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-textarea-field.html"><abbr title="includes/admin/fields/textarea-field.php">textarea-field.php</abbr></a></li>
+                    <li><a href="files/includes-utils-third-party-plugins-utils.html"><abbr title="includes/utils/third-party-plugins-utils.php">third-party-plugins-utils.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-time-picker-field.html"><abbr title="includes/admin/fields/time-picker-field.php">time-picker-field.php</abbr></a></li>
+                    <li><a href="files/templates-loop-service-title.html"><abbr title="templates/loop-service/title.php">title.php</abbr></a></li>
+                    <li><a href="files/templates-single-room-type-title.html"><abbr title="templates/single-room-type/title.php">title.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-title.html"><abbr title="templates/loop-room-type/title.php">title.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-attributes-total-capacity.html"><abbr title="templates/loop-room-type/attributes/total-capacity.php">total-capacity.php</abbr></a></li>
+                    <li><a href="files/templates-single-room-type-attributes-total-capacity.html"><abbr title="templates/single-room-type/attributes/total-capacity.php">total-capacity.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-total-price-field.html"><abbr title="includes/admin/fields/total-price-field.php">total-price-field.php</abbr></a></li>
+                    <li><a href="files/includes-translation.html"><abbr title="includes/translation.php">translation.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-two-checkout-gateway.html"><abbr title="includes/payments/gateways/two-checkout-gateway.php">two-checkout-gateway.php</abbr></a></li>
+                    <li><a href="files/lite-includes-payments-gateways-two-checkout-gateway.html"><abbr title="lite/includes/payments/gateways/two-checkout-gateway.php">two-checkout-gateway.php</abbr></a></li>
+                </ul>
+                                    <h3>U</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/uninstall.html"><abbr title="uninstall.php">uninstall.php</abbr></a></li>
+                    <li><a href="files/includes-bundles-units-bundle.html"><abbr title="includes/bundles/units-bundle.php">units-bundle.php</abbr></a></li>
+                    <li><a href="files/includes-settings-units-settings.html"><abbr title="includes/settings/units-settings.php">units-settings.php</abbr></a></li>
+                    <li><a href="files/lite-includes-admin-menu-pages-upgrade-to-premium-menu-page.html"><abbr title="lite/includes/admin/menu-pages/upgrade-to-premium-menu-page.php">upgrade-to-premium-menu-page.php</abbr></a></li>
+                    <li><a href="files/includes-upgrader.html"><abbr title="includes/upgrader.php">upgrader.php</abbr></a></li>
+                    <li><a href="files/includes-user-actions-user-actions.html"><abbr title="includes/user-actions/user-actions.php">user-actions.php</abbr></a></li>
+                    <li><a href="files/includes-users-and-roles-user.html"><abbr title="includes/users-and-roles/user.php">user.php</abbr></a></li>
+                </ul>
+                                    <h3>V</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/includes-utils-validate-utils.html"><abbr title="includes/utils/validate-utils.php">validate-utils.php</abbr></a></li>
+                    <li><a href="files/includes-admin-fields-variable-pricing-field.html"><abbr title="includes/admin/fields/variable-pricing-field.php">variable-pricing-field.php</abbr></a></li>
+                    <li><a href="files/includes-views-view-actions.html"><abbr title="includes/views/view-actions.php">view-actions.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-view-details-button.html"><abbr title="templates/loop-room-type/view-details-button.php">view-details-button.php</abbr></a></li>
+                    <li><a href="files/templates-single-room-type-attributes-view.html"><abbr title="templates/single-room-type/attributes/view.php">view.php</abbr></a></li>
+                    <li><a href="files/templates-loop-room-type-attributes-view.html"><abbr title="templates/loop-room-type/attributes/view.php">view.php</abbr></a></li>
+                </ul>
+                                    <h3>W</h3>
+        <ul class="phpdocumentor-list">
+                    <li><a href="files/includes-payments-gateways-braintree-webhook-listener.html"><abbr title="includes/payments/gateways/braintree/webhook-listener.php">webhook-listener.php</abbr></a></li>
+                    <li><a href="files/includes-payments-gateways-stripe-webhook-listener.html"><abbr title="includes/payments/gateways/stripe/webhook-listener.php">webhook-listener.php</abbr></a></li>
+                    <li><a href="files/includes-wizard.html"><abbr title="includes/wizard.php">wizard.php</abbr></a></li>
+                    <li><a href="files/includes-entities-wp-post-data.html"><abbr title="includes/entities/wp-post-data.php">wp-post-data.php</abbr></a></li>
+                </ul>
+                                                                                        <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+            </div>
+        </div>
+        <a href="indices/files.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="js/search.js?updated=1680084336"></script>
+    <script src="js/searchIndex.js?updated=1680084336"></script>
+</body>
+</html>
